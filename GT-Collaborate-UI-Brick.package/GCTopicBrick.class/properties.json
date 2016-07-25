@@ -1,0 +1,15 @@
+{
+	"category" : "GT-Collaborate-UI-Brick-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"topicHolder",
+		"titleBrick" ],
+	"name" : "GCTopicBrick",
+	"pools" : [
+		 ],
+	"super" : "GLMInteractableBrick",
+	"type" : "normal" }

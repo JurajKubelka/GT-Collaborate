@@ -1,0 +1,14 @@
+{
+	"category" : "GT-Collaborate-UI-Brick-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GCTextBrick",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

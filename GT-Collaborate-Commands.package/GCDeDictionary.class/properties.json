@@ -1,0 +1,15 @@
+{
+	"category" : "GT-Collaborate-Commands",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"journal",
+		"dictionary" ],
+	"name" : "GCDeDictionary",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

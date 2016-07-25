@@ -1,0 +1,14 @@
+{
+	"category" : "GT-Collaborate-Commands",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"journal" ],
+	"name" : "GCDeCommander",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

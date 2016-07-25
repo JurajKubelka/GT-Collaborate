@@ -1,0 +1,14 @@
+{
+	"category" : "GT-Collaborate-Obsolete",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GCUnknownType",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

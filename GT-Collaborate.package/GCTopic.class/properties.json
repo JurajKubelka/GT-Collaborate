@@ -1,0 +1,17 @@
+{
+	"category" : "GT-Collaborate-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"time",
+		"title",
+		"contents",
+		"uuid" ],
+	"name" : "GCTopic",
+	"pools" : [
+		 ],
+	"super" : "GCAnnouncer",
+	"type" : "normal" }

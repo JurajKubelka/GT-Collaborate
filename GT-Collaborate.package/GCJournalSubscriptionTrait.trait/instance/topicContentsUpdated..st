@@ -1,0 +1,3 @@
+announcement handling
+topicContentsUpdated: anAnnouncement
+	self explicitRequirement

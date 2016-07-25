@@ -1,0 +1,15 @@
+{
+	"category" : "GT-Collaborate-Abstract",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"previousValue",
+		"actualValue" ],
+	"name" : "GCObjectChanged",
+	"pools" : [
+		 ],
+	"super" : "GCAnnouncement",
+	"type" : "normal" }

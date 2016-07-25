@@ -1,0 +1,14 @@
+{
+	"category" : "GT-Collaborate-Abstract",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GCUnknownAnnouncement",
+	"pools" : [
+		 ],
+	"super" : "GCAnnouncement",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "GT-Collaborate-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GCNullTopic",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,17 @@
+{
+	"category" : "GT-Collaborate-Trantor-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"engine",
+		"commands",
+		"allCommands",
+		"selectedCommands" ],
+	"name" : "GCCommandBuilder",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

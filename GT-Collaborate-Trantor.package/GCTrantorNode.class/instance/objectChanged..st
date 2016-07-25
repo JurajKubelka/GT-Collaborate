@@ -1,0 +1,3 @@
+announcement handling
+objectChanged: aTrantorObjectChanged 
+	engine pullChanges

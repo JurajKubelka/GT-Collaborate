@@ -1,0 +1,16 @@
+{
+	"category" : "GT-Collaborate-Trantor-Example",
+	"classinstvars" : [
+		"uniqueInstance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"node",
+		"object",
+		"trantorObject" ],
+	"name" : "GCTrantorLocalServer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

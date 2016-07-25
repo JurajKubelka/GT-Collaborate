@@ -1,0 +1,3 @@
+examples
+exampleJournalWithTrantorEngine
+	^ self journalWithTrantorEngine open

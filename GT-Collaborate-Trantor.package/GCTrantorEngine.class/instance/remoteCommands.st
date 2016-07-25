@@ -1,0 +1,3 @@
+accessing
+remoteCommands
+	^ trantor asOrderedCollection

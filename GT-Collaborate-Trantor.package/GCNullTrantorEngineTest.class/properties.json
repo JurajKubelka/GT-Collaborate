@@ -1,0 +1,23 @@
+{
+	"category" : "GT-Collaborate-Trantor-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"journal",
+		"engine",
+		"firstTopic",
+		"oldText",
+		"newText",
+		"command",
+		"commands",
+		"trantor",
+		"commander",
+		"decommander" ],
+	"name" : "GCNullTrantorEngineTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

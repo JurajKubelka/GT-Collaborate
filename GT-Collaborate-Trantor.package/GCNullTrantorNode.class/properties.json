@@ -1,0 +1,15 @@
+{
+	"category" : "GT-Collaborate-Trantor-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"remoteObject",
+		"engine" ],
+	"name" : "GCNullTrantorNode",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

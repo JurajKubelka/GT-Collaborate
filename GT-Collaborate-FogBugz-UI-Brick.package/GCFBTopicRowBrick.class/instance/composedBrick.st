@@ -1,0 +1,3 @@
+accessing - brick
+composedBrick
+	^ composedBrick

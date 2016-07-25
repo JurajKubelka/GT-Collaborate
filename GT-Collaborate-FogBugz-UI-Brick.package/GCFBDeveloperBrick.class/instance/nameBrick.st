@@ -1,0 +1,3 @@
+accessing - brick
+nameBrick
+	^ nameBrick

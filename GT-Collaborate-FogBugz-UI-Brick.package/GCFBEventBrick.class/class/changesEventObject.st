@@ -1,0 +1,3 @@
+examples
+changesEventObject
+	^ STON fromString: 'FogBugzEvent{#id:169860,#attachements:Set[],#description:''Resolved (Fix Reviewed by the Monkey) and assigned to Spirita by Spirita'',#comment:''Test failure not related: FFIExternalStructureTests>>#testExternalStructWithArray\nImage Version 60148'',#changes:''Status changed from \''Work Needed (Failing Test)\'' to \''Resolved (Fix Reviewed by the Monkey)\''.\r\nAdded tag \''noMonkey\''.'',#date:DateAndTime[''2016-07-12T14:35:29+00:00''],#case:FogBugzCase{#id:18744,#subcases:[]},#user:FogBugzUser{#id:521,#username:''Spirita''}}'

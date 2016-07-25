@@ -1,0 +1,18 @@
+{
+	"category" : "GT-Collaborate-FogBugz-UI-Brick",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"topicHolder",
+		"event",
+		"descriptionBrick",
+		"statusBrick",
+		"commentBrick" ],
+	"name" : "GCFBEventBrick",
+	"pools" : [
+		 ],
+	"super" : "GLMBrick",
+	"type" : "normal" }

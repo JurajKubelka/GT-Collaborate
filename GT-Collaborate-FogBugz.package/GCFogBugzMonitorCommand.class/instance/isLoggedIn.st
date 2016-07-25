@@ -1,0 +1,3 @@
+testing
+isLoggedIn
+	^ tracker isLoggedIn

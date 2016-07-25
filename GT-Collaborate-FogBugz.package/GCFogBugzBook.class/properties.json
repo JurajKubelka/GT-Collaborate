@@ -1,0 +1,15 @@
+{
+	"category" : "GT-Collaborate-FogBugz-Model",
+	"classinstvars" : [
+		"uniqueInstance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"cases",
+		"monitor" ],
+	"name" : "GCFogBugzBook",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

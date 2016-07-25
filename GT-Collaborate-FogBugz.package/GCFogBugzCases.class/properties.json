@@ -1,0 +1,15 @@
+{
+	"category" : "GT-Collaborate-FogBugz-Model",
+	"classinstvars" : [
+		"uniqueInstance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"collection",
+		"mutex" ],
+	"name" : "GCFogBugzCases",
+	"pools" : [
+		 ],
+	"super" : "GCAnnouncer",
+	"type" : "normal" }

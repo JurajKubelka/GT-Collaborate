@@ -1,0 +1,14 @@
+{
+	"category" : "GT-Collaborate-FogBugz-Commands",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"tracker" ],
+	"name" : "GCFogBugzMonitorCommand",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

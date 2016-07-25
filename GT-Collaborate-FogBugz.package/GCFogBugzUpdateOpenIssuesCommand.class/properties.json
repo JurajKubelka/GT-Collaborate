@@ -1,0 +1,14 @@
+{
+	"category" : "GT-Collaborate-FogBugz-Commands",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"cases" ],
+	"name" : "GCFogBugzUpdateOpenIssuesCommand",
+	"pools" : [
+		 ],
+	"super" : "GCFogBugzMonitorCommand",
+	"type" : "normal" }

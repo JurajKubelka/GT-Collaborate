@@ -1,0 +1,17 @@
+{
+	"category" : "GT-Collaborate-FogBugz-Dialog",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"usernameLabel",
+		"usernameField",
+		"passwordLabel",
+		"passwordField" ],
+	"name" : "GCLoginDialogModel",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"type" : "normal" }

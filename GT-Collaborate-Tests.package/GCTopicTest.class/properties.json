@@ -1,0 +1,18 @@
+{
+	"category" : "GT-Collaborate-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"topic",
+		"newText",
+		"result",
+		"oldText",
+		"oldTitle" ],
+	"name" : "GCTopicTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

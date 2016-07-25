@@ -1,0 +1,14 @@
+{
+	"category" : "GT-Collaborate-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "ManifestGTCollaborateTests",
+	"pools" : [
+		 ],
+	"super" : "PackageManifest",
+	"type" : "normal" }

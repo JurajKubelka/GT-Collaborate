@@ -1,0 +1,15 @@
+{
+	"category" : "GT-Collaborate-UI-Brick-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"newText",
+		"topicBrick" ],
+	"name" : "GCTopicBrickTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "GT-Collaborate-Commands-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"decommander" ],
+	"name" : "GCDeCommanderTest",
+	"pools" : [
+		 ],
+	"super" : "GCCommanderTest",
+	"type" : "normal" }

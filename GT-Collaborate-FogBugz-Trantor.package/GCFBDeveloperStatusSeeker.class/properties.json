@@ -1,0 +1,17 @@
+{
+	"category" : "GT-Collaborate-FogBugz-Trantor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"trantor",
+		"journals",
+		"trantorEngine",
+		"dictionaryBuilder" ],
+	"name" : "GCFBDeveloperStatusSeeker",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -3,4 +3,4 @@ loggedInStyleFor: aBrick
 	aBrick 
 		useVerticalLinearLayout;
 		hSpaceFill;
-		vSpaceFill
+		vShrinkWrap

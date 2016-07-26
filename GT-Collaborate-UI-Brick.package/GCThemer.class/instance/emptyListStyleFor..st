@@ -1,4 +1,4 @@
 styles - login
 emptyListStyleFor: aBrick
-	aBrick vSpaceFill; hSpaceFill.  
+	aBrick vShrinkWrap; hSpaceFill; minHeight: 50.  
 	

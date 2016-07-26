@@ -1,10 +1,11 @@
 examples
 emptyCollection
 	<gtExample>
-	|adaptor|
+	| adaptor collection list actionBlock |
 	adaptor := nil.
+	collection := OrderedCollection new.
 	adaptor := GLMBrickListModel new
-		sizeLogic: [ 0 ];
+		on: collection;
 		morphAtLogic: [ :index :morph | 
 			(morph ifNil: [ GLMLabelBrick new ])
 				color: Color random muchLighter;
@@ -14,7 +15,10 @@ emptyCollection
 				hSpaceFill;
 				yourself ].
 
-	^ self new 
-			emptyBrick: self newEmptyBrick;
+	list := self new.
+	actionBlock := [ collection addAll: (1 to: 20). list update ].
+
+	^ list
+			emptyBrick: (self newEmptyBrick: actionBlock);
 			model: adaptor;
 			yourself

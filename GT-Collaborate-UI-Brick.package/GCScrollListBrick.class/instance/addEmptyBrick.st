@@ -1,5 +1,6 @@
-as yet unclassified
+adding
 addEmptyBrick
 	isEmptyBrickDisplayed ifTrue: [ ^ self ].
 	self emptyBrick ifNotNil: [ :aBrick |
-		self band addBrickBack: aBrick ].
+		self addBrickBack: aBrick.
+		isEmptyBrickDisplayed := true ].

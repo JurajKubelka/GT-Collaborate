@@ -1,0 +1,3 @@
+displaying
+displayLoggedInBrick
+	self contentsBrick: self newLoggedInBrick

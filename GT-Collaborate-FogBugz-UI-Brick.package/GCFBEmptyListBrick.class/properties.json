@@ -1,14 +1,14 @@
 {
-	"category" : "GT-Collaborate-FogBugz-UI-Brick-List",
+	"category" : "GT-Collaborate-FogBugz-UI-Brick-Login",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"topicHolder",
-		"plusBrick" ],
-	"name" : "GCFBDevelopersBrick",
+		"book",
+		"contentsBrick" ],
+	"name" : "GCFBEmptyListBrick",
 	"pools" : [
 		 ],
 	"super" : "GLMBrick",

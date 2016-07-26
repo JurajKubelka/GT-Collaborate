@@ -1,7 +1,7 @@
 announcement handling
-updateFinished
+networkError: aGCFBNetworkError 
 	self textBrick 
-		text: self noIssuesText.
+		text: (self networkErrorText: aGCFBNetworkError).
 	self updateButtonBrick 
 		enable;
 		text: self updateButtonText

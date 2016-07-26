@@ -1,3 +1,6 @@
 displaying
 displayLoggedInBrick
-	self contentsBrick: self newLoggedInBrick
+	| aBrick |
+	aBrick := self newLoggedInBrick.
+	self contentsBrick: aBrick.
+	aBrick submitUpdate.

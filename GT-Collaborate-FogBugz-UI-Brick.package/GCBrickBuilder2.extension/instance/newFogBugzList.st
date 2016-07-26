@@ -13,8 +13,11 @@ newFogBugzList
 			newBrick topicHolder: (self topicHolderAt: index).
 			newBrick ];
 			yourself).
-	existingJournalHolder 
-		subscribe: GCTopicAdded send: #update to: list for: list.
+	existingJournalHolder inspect
+		subscribe: GCTopicAdded send: #update to: list for: list;
+		subscribe: GCFBUpdateFinished send: #invalidate to: list for: list;
+		when: GCFBUpdateFinished do: [ self traceCr: 'trigger update list' ] for: list;
+		yourself.
 	list 
 		onAnnouncement: MorphDeleted 
 		do: [ existingJournalHolder unsubscribe: list ].

@@ -7,5 +7,4 @@ submitLogin
 	self book 
 		login: self emailInputBrick text asString
 		password: self passwordInputBrick text asString;
-		login; 
-		update.
+		login.

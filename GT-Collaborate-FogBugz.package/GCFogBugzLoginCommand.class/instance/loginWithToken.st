@@ -1,6 +1,6 @@
 private
 loginWithToken
-	^ GCFogBugsSettings uniqueInstance token 
+	^ self credentialsToken 
 			ifEmpty: [ false ]
 			ifNotEmpty: [ :aToken | 
 				tracker identifyingToken: aToken.

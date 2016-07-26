@@ -11,5 +11,5 @@
 	"name" : "GCFogBugzBook",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "GCAnnouncer",
 	"type" : "normal" }

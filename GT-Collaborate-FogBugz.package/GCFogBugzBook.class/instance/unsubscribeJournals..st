@@ -1,3 +1,3 @@
 subscription
 unsubscribeJournals: aGCJournals 
-	cases unsubscribe: aGCJournals
+	self unsubscribe: aGCJournals

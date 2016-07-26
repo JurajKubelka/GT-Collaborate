@@ -1,5 +1,10 @@
 login
 login
 	^ tracker isLoggedIn 
-			ifFalse: [ self loginWithToken or: [ self loginWithUser ] ]
-			ifTrue: true
+			ifFalse: [ | result |
+				result := self loginWithToken or: [ self loginWithUser ].
+				self announceResult.
+				result ]
+			ifTrue: [
+				self announceAlreadyLogged.
+				true ]

@@ -8,7 +8,8 @@
 	"instvars" : [
 		"tracker",
 		"cases",
-		"queue" ],
+		"queue",
+		"announcer" ],
 	"name" : "GCFogBugzMonitor",
 	"pools" : [
 		 ],

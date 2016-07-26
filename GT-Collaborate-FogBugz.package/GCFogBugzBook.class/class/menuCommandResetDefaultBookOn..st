@@ -7,5 +7,5 @@ menuCommandResetDefaultBookOn: aBuilder
 		order: 3.4;
 		icon: (Smalltalk ui icons glamorousRemove);
 		parent: #Collaboration;
-		action: [ self resetAll ];
+		action: [ self reset ];
 		withSeparatorAfter 

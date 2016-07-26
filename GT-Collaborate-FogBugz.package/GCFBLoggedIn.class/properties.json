@@ -1,0 +1,14 @@
+{
+	"category" : "GT-Collaborate-FogBugz-Announcements",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GCFBLoggedIn",
+	"pools" : [
+		 ],
+	"super" : "GCFBNetworkAnnouncement",
+	"type" : "normal" }

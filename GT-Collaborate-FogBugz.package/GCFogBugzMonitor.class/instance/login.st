@@ -1,6 +1,6 @@
 login
 login
-	^ tracker isLoggedIn 
-			ifFalse: [ queue addCommand: (GCFogBugzLoginCommand new
-							tracker: tracker;
-							yourself) ]
+	queue addCommand: (GCFogBugzLoginCommand new
+		announcer: announcer;
+		tracker: tracker;
+		yourself)

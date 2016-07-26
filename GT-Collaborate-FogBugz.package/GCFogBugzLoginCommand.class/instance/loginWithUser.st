@@ -1,9 +1,9 @@
 private
 loginWithUser
-	^ GCFogBugsSettings uniqueInstance login 
+	^ self credentialsLogin 
 			ifEmpty: [ false ]
 			ifNotEmpty: [ :aLogin | 
-				GCFogBugsSettings uniqueInstance password 
+				self credentialsPassword 
 					ifEmpty: [ false ]
 					ifNotEmpty: [ :aPasword |
 						tracker logOnWithEmail: aLogin password: aPasword.

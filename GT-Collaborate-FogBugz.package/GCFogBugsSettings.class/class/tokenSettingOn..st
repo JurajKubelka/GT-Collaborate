@@ -4,7 +4,7 @@ tokenSettingOn: aBuilder
 	(aBuilder setting: #gcFogBugzToken)
 		order: -90018;
 		parent: #pharoSystem;
-		label: 'FogBugz password';
+		label: 'FogBugz token';
 		target: self uniqueInstance;
 		getSelector: #token;
 		setSelector: #token:;

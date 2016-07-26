@@ -1,3 +1,3 @@
 subscription
 subscribeJournals: aGCJournals 
-	cases subscribe: GCAnnouncement send: #announce: to: aGCJournals for: aGCJournals
+	self subscribe: GCAnnouncement send: #announce: to: aGCJournals for: aGCJournals

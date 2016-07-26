@@ -1,0 +1,14 @@
+{
+	"category" : "GT-Collaborate-FogBugz-Announcements",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"exception" ],
+	"name" : "GCFBNetworkError",
+	"pools" : [
+		 ],
+	"super" : "GCFBNetworkAnnouncement",
+	"type" : "normal" }

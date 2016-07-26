@@ -1,10 +1,9 @@
 login
 login
-	^ tracker isLoggedIn 
-			ifFalse: [ | result |
-				result := self loginWithToken or: [ self loginWithUser ].
+	tracker isLoggedIn
+		ifFalse: [
+			[ 	self loginWithToken or: [ self loginWithUser ].
 				self announceResult.
-				result ]
-			ifTrue: [
-				self announceAlreadyLogged.
-				true ]
+			] 	on: NetworkError, PrimitiveFailed, NameLookupFailure 
+				do: [ :ex | self announceNetworkError: ex ] ]
+		ifTrue: [ self announceAlreadyLogged ]

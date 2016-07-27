@@ -1,8 +1,3 @@
-styles - login
+styles - fogbugz - login
 notLoggedInStyleFor: aBrick 
-	aBrick 
-		useVerticalLinearLayout;
-		vShrinkWrap;
-		width: self defaultLoginWidth;
-		hAlign: #center;
-		vAlign: #center.
+	self commonLoginStyleFor: aBrick

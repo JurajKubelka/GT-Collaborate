@@ -1,4 +1,4 @@
-as yet unclassified
+styles - fogbugz - main window
 fogBugzEmptyListStyleFor: aBrick 
 	aBrick
 		hSpaceFill;

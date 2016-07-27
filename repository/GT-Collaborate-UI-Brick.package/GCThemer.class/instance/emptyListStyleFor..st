@@ -1,3 +1,6 @@
-styles - login
+styles - fogbugz - login
 emptyListStyleFor: aBrick
-	aBrick vShrinkWrap; hShrinkWrap
+	aBrick 
+		vShrinkWrap; 
+		hShrinkWrap;
+		color: self backgroundColor

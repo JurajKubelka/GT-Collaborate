@@ -1,7 +1,7 @@
 styles-widget-login
 loginResultBrickStyleFor: aBrick
 	aBrick
-		padding: self defaultPadding;
+		padding: self padding;
 		beReadOnly;
 		hSpaceFill;
 		vShrinkWrap

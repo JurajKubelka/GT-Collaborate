@@ -1,4 +1,4 @@
-as yet unclassified
+styles - fogbugz - main window
 fogBugzMainStyleFor: aBrick 
 	aBrick 
 		useVerticalLinearLayout;

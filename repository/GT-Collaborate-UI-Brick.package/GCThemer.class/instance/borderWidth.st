@@ -1,3 +1,3 @@
 box model
 borderWidth
-	^ 3
+	^ 1

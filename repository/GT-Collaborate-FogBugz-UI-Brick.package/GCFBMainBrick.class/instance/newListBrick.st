@@ -1,3 +1,3 @@
 instance creation
-newEventList
+newListBrick
 	^ GCFixedScrollListBrick new

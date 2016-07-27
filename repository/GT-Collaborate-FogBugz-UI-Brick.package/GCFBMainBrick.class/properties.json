@@ -6,7 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"isEmptyBrickDisplayed" ],
+		"isEmptyBrickDisplayed",
+		"toolBarBrick",
+		"emptyListBrick",
+		"listBrick",
+		"book",
+		"journalsHolder" ],
 	"name" : "GCFBMainBrick",
 	"pools" : [
 		 ],

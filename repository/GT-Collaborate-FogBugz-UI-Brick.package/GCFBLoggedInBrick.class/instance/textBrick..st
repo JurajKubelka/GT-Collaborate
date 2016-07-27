@@ -4,5 +4,5 @@ textBrick: aBrick
 	textBrick := aBrick.
 	self theme collaborateWidgetThemer loginResultBrickStyleFor: aBrick.
 	aBrick 
-		text: self noIssuesText.
+		text: self issuesText.
 	self addBrickBack: aBrick.

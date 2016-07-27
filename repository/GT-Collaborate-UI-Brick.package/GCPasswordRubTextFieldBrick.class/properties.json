@@ -1,0 +1,14 @@
+{
+	"category" : "GT-Collaborate-UI-Brick",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GCPasswordRubTextFieldBrick",
+	"pools" : [
+		 ],
+	"super" : "GLMRubTextFieldBrick",
+	"type" : "normal" }

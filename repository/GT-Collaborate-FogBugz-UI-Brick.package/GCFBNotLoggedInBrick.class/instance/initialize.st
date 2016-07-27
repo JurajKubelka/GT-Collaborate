@@ -7,6 +7,6 @@ initialize
 	self emailLabelBrick: self newLabelBrick.
 	self emailInputBrick: self newInputBrick.
 	self passwordLabelBrick: self newLabelBrick.
-	self passwordInputBrick: self newInputBrick.
+	self passwordInputBrick: self newPasswordInputBrick.
 	self loginButtonBrick: self newButtonBrick.
 	self loginResultBrick: self newTextBrick.

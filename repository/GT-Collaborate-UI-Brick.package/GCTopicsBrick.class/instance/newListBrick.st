@@ -1,3 +1,3 @@
 instance creation
 newListBrick
-	^ GLMScrollListBrick new
+	^ GCFixedScrollListBrick new

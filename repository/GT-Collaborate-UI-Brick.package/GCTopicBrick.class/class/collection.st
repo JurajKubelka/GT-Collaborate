@@ -11,4 +11,4 @@ collection
 				topicHolder: (journal topicHolderAt: index);
 				color: Color random muchLighter;
 				yourself ].
-	^ GLMScrollListBrick new model: adaptor; yourself
+	^ GCFixedScrollListBrick new model: adaptor; yourself

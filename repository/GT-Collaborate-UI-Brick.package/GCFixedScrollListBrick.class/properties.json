@@ -1,14 +1,13 @@
 {
-	"category" : "GT-Collaborate-UI-Brick-Obsolete",
+	"category" : "GT-Collaborate-UI-Brick-Widgets",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"emptyBrick",
-		"isEmptyBrickDisplayed" ],
-	"name" : "GCScrollListBrick",
+		 ],
+	"name" : "GCFixedScrollListBrick",
 	"pools" : [
 		 ],
 	"super" : "GLMScrollListBrick",

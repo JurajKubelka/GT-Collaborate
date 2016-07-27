@@ -2,5 +2,7 @@ styles - login
 notLoggedInStyleFor: aBrick 
 	aBrick 
 		useVerticalLinearLayout;
-		hSpaceFill;
-		vShrinkWrap
+		vShrinkWrap;
+		width: self defaultLoginWidth;
+		hAlign: #center;
+		vAlign: #center.

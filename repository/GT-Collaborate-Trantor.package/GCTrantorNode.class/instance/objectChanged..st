@@ -1,3 +1,4 @@
 announcement handling
-objectChanged: aTrantorObjectChanged 
+objectChanged: aTrantorObjectChanged
+	self announce: aTrantorObjectChanged.
 	engine pullChanges

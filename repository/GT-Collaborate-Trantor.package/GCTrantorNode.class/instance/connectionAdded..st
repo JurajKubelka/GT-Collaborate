@@ -1,3 +1,4 @@
 announcement handling
 connectionAdded: aTrantorConnectionAdded 
-	node sync
+	node sync.
+	self announce: aTrantorConnectionAdded.

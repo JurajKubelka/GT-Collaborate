@@ -1,3 +1,3 @@
 subscription
-unsubscribe: aGCFBDeveloperStatusSeeker 
-	
+unsubscribe: subscriber 
+	^ trantor unsubscribe: subscriber

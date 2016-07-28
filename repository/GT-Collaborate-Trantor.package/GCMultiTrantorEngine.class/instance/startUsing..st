@@ -1,2 +1,3 @@
 activation
-startUsing: aJournals
+startUsing: aJournals.
+	trantor connect; sync

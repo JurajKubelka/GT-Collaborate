@@ -1,3 +1,3 @@
 subscription
-subscribe: aClass send: aString to: aGCFBDeveloperStatusSeeker for: aGCFBDeveloperStatusSeeker4 
-	
+subscribe: aClass send: aString to: receiver for: subscriber 
+	^ trantor subscribe: aClass send: aString to: receiver for: subscriber

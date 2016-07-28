@@ -12,5 +12,5 @@
 	"name" : "GCTrantorNode",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "GCAnnouncer",
 	"type" : "normal" }

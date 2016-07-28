@@ -1,5 +1,5 @@
 as yet unclassified
 announceCommand: aDictionary 
 	| announcement |
-	announcement := GCAnnouncement fromActionId: (aDictionary at: #action).
+	announcement := GCAnnouncement instantiateActionName: (aDictionary at: #action).
 	self flag: #toBeRemoved.

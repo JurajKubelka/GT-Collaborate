@@ -1,3 +1,3 @@
 actions
 execute
-	(GCAnnouncement fromActionId: (dictionary at: #action)) accept: self.
+	(GCAnnouncement instantiateActionName: (dictionary at: #action)) accept: self.

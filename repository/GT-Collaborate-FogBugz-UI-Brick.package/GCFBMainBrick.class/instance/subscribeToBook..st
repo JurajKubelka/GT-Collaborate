@@ -1,4 +1,4 @@
-as yet unclassified
+subscription
 subscribeToBook: aBook
 	aBook
 "		subscribe: GCTopicAdded send: #topicAdded to: self for: self;

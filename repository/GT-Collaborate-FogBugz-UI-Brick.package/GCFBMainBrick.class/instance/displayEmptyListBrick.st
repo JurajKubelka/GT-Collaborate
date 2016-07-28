@@ -1,4 +1,4 @@
-as yet unclassified
+displaying
 displayEmptyListBrick
 	isEmptyBrickDisplayed ifTrue: [ ^ self ].
 	self removeBrick: self listBrick.

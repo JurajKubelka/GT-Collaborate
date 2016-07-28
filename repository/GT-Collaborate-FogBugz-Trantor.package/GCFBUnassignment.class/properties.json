@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"journals",
-		"trantorEngine",
-		"dictionaryBuilder",
-		"commandBuilder" ],
-	"name" : "GCFBDeveloperStatusSeeker",
+		 ],
+	"name" : "GCFBUnassignment",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "GCFBDeveloperStatusCommand",
 	"type" : "normal" }

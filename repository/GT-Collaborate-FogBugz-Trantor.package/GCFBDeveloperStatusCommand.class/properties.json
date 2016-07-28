@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"journals",
-		"trantorEngine",
-		"dictionaryBuilder",
-		"commandBuilder" ],
-	"name" : "GCFBDeveloperStatusSeeker",
+		"topicNumber",
+		"status" ],
+	"name" : "GCFBDeveloperStatusCommand",
 	"pools" : [
 		 ],
 	"super" : "Object",

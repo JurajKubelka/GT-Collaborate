@@ -1,4 +1,4 @@
-as yet unclassified
+announcement handling
 assigned: aGCDeveloperAssigned 
 	| dictionary |
 	dictionary := dictionaryBuilder dictionary: aGCDeveloperAssigned.

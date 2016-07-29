@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 topicWithNumber: anInteger 
 	^ cases topicWithNumber: anInteger 

@@ -1,0 +1,14 @@
+{
+	"category" : "GT-Collaborate-FogBugz-Filters",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GCFBPharoSprintFilter",
+	"pools" : [
+		 ],
+	"super" : "GCFBFilterCommand",
+	"type" : "normal" }

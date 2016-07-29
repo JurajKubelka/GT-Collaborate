@@ -3,6 +3,7 @@ SystemOrganization addCategory: 'GT-Collaborate-FogBugz-Announcements'!
 SystemOrganization addCategory: 'GT-Collaborate-FogBugz-Commands'!
 SystemOrganization addCategory: 'GT-Collaborate-FogBugz-Dialog'!
 SystemOrganization addCategory: 'GT-Collaborate-FogBugz-Examples'!
+SystemOrganization addCategory: 'GT-Collaborate-FogBugz-Filters'!
 SystemOrganization addCategory: 'GT-Collaborate-FogBugz-Model'!
 SystemOrganization addCategory: 'GT-Collaborate-FogBugz-Network'!
 SystemOrganization addCategory: 'GT-Collaborate-FogBugz-Settings'!

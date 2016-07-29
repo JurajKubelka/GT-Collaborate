@@ -1,0 +1,14 @@
+{
+	"category" : "GT-Collaborate-FogBugz-Examples",
+	"classinstvars" : [
+		"uniqueInstance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GCFBExamples",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

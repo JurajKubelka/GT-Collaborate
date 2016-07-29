@@ -1,0 +1,9 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'GTCollaborate',
+      #directory : 'repository',
+      #platforms : [ #pharo ]
+    }
+  ]
+}

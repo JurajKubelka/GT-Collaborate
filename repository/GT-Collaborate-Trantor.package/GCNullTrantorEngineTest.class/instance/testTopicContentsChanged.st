@@ -10,7 +10,7 @@ testTopicContentsChanged
 	self assert: command notNil.
 	self assert: command class equals: Dictionary.
 	self assert: command equals: (Dictionary new 
-		at: #action put: 'TopicContentsUpdated';
+		at: #action put: 'TopicUpdated';
 		at: #contents put: (Dictionary new 
 				at: #text put: 'Text{#string:''new text'',#runs:RunArray{#runs:[8],#values:[[]]}}';
 				at: #type put: 'Text';

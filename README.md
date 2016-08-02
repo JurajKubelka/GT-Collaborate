@@ -8,12 +8,15 @@ Right now, it integrates [Pharo FogBugz issue tracker](http://pharo.fogbugz.com)
 
 
 Login window:
+
 ![login window](images/readme/login.png)
 
 Updating window (if there are no loaded issues):
-![updating window](images/readme/update.png)
+
+![updating window](images/readme/updating.png)
 
 Main window:
+
 ![main window](images/readme/main.png)
 
 ## Installation

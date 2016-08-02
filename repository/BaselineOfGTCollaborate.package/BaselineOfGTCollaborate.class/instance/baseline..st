@@ -21,23 +21,25 @@ baseline: spec
 					versionString: #'stable';
 					repository: 'http://smalltalkhub.com/mc/TorstenBergmann/WebBrowser/main/' ].
 		spec 
-			package: #'GT-Collaborate';
+			package: #'GT-Collaborate-Basic';
 			package: #'GT-Collaborate-Commands' with: [
-				spec requires: #(#'GT-Collaborate' ). ];
-			package: #'GT-Collaborate-Commands-Tests' with: [
-				spec requires: #(#'GT-Collaborate-Commands' #'GT-Collaborate-Tests' ). ];
+				spec requires: #(#'GT-Collaborate-Basic' ). ];
+			package: #'GT-Collaborate-Tests-Commands' with: [
+				spec requires: #(#'GT-Collaborate-Commands' #'GT-Collaborate-Tests-Basic' ). ];
 			package: #'GT-Collaborate-FogBugz' with: [
-				spec requires: #(#'GT-Collaborate' 'CIFogBugzAPI' ). ];
-			package: #'GT-Collaborate-FogBugz-Trantor' with: [
-				spec requires: #('Trantor' #'GT-Collaborate' #'GT-Collaborate-Commands' ). ];
-			package: #'GT-Collaborate-FogBugz-UI-Brick' with: [
-				spec requires: #('WebBrowser' #'GT-Collaborate-UI-Brick' ). ];
-			package: #'GT-Collaborate-Tests' with: [
-				spec requires: #(#'GT-Collaborate' ). ];
-			package: 'GT-Collaborate-Trantor' with: [
-				spec requires: #(#'GT-Collaborate' #'GT-Collaborate-Commands' 'Trantor' ). ];
-			package: #'GT-Collaborate-UI-Brick' with: [
-				spec requires: #(#'GT-Collaborate' ). ];
-			package: #'GT-Collaborate-UI-Brick-Tests' with: [
-				spec requires: #(#'GT-Collaborate-UI-Brick' ). ].
-		spec group: 'default' with: #(#'GT-Collaborate' #'GT-Collaborate-Commands' 'GT-Collaborate-Commands-Tests' #'GT-Collaborate-Tests' #'GT-Collaborate-Trantor' #'GT-Collaborate-UI-Brick' #'GT-Collaborate-UI-Brick-Tests' #'GT-Collaborate-FogBugz' #'GT-Collaborate-FogBugz-UI-Brick' #'GT-Collaborate-FogBugz-Trantor'). ].
+				spec requires: #(#'GT-Collaborate-Basic' 'CIFogBugzAPI' ). ];
+			package: #'GT-Collaborate-Trantor-FogBugz' with: [
+				spec requires: #('Trantor' #'GT-Collaborate-Basic' #'GT-Collaborate-Commands' ). ];
+			package: #'GT-Collaborate-UI-Brick-FogBugz' with: [
+				spec requires: #('WebBrowser' #'GT-Collaborate-UI-Brick-Basic' ). ];
+			package: #'GT-Collaborate-Tests-Basic' with: [
+				spec requires: #(#'GT-Collaborate-Basic' ). ];
+			package: #'GT-Collaborate-Trantor-Basic' with: [
+				spec requires: #(#'GT-Collaborate-Basic' #'GT-Collaborate-Commands' 'Trantor' ). ];
+			package: #'GT-Collaborate-Tests-Trantor-Basic' with: [
+				spec requires: #(#'GT-Collaborate-Basic' #'GT-Collaborate-Commands' #'GT-Collaborate-Trantor-Basic' 'Trantor' ). ];
+			package: #'GT-Collaborate-UI-Brick-Basic' with: [
+				spec requires: #(#'GT-Collaborate-Basic' ). ];
+			package: #'GT-Collaborate-Tests-UI-Brick' with: [
+				spec requires: #(#'GT-Collaborate-UI-Brick-Basic' ). ].
+		spec group: 'default' with: #(#'GT-Collaborate-Basic' #'GT-Collaborate-Commands' #'GT-Collaborate-Tests-Commands' #'GT-Collaborate-FogBugz' #'GT-Collaborate-Trantor-FogBugz' #'GT-Collaborate-Tests-Basic' #'GT-Collaborate-Trantor-Basic' #'GT-Collaborate-UI-Brick-Basic' #'GT-Collaborate-Tests-UI-Brick' #'GT-Collaborate-Tests-Trantor-Basic' #'GT-Collaborate-UI-Brick-FogBugz'). ].

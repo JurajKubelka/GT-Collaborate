@@ -1,0 +1,19 @@
+{
+	"category" : "GT-Collaborate-UI-Brick-FogBugz-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"isEmptyBrickDisplayed",
+		"toolBarBrick",
+		"emptyListBrick",
+		"listBrick",
+		"book",
+		"journalsHolder" ],
+	"name" : "GCFBMainBrick",
+	"pools" : [
+		 ],
+	"super" : "GLMBrick",
+	"type" : "normal" }

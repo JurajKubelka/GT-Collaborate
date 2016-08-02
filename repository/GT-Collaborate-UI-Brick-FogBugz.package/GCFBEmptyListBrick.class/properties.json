@@ -1,0 +1,15 @@
+{
+	"category" : "GT-Collaborate-UI-Brick-FogBugz-Login",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"book",
+		"contentsBrick" ],
+	"name" : "GCFBEmptyListBrick",
+	"pools" : [
+		 ],
+	"super" : "GLMBrick",
+	"type" : "normal" }

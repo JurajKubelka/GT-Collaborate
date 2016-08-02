@@ -1,0 +1,3 @@
+update
+updatePasswordInputBrick
+	self passwordInputBrick setTextWith: self book credentialsPassword

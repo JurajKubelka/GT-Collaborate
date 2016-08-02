@@ -1,0 +1,18 @@
+{
+	"category" : "GT-Collaborate-UI-Brick-FogBugz-PharoSprint",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"journalsHolder",
+		"book",
+		"allColumnBrick",
+		"takenColumnBrick",
+		"doneColumnBrick" ],
+	"name" : "GCFBSprintWhiteboardBrick",
+	"pools" : [
+		 ],
+	"super" : "GLMBrick",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "GT-Collaborate-UI-Brick-FogBugz-List",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"developer",
+		"nameBrick" ],
+	"name" : "GCFBDeveloperBrick",
+	"pools" : [
+		 ],
+	"super" : "GLMBrick",
+	"type" : "normal" }

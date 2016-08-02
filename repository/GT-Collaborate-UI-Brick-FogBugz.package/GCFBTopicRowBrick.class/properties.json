@@ -1,0 +1,20 @@
+{
+	"category" : "GT-Collaborate-UI-Brick-FogBugz-List",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"developersBrick",
+		"caseBrick",
+		"statusBrick",
+		"topicHolder",
+		"actionBricks",
+		"detailWindow",
+		"composedBrick" ],
+	"name" : "GCFBTopicRowBrick",
+	"pools" : [
+		 ],
+	"super" : "GLMInteractableBrick",
+	"type" : "normal" }

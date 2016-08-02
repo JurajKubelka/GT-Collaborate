@@ -1,0 +1,14 @@
+{
+	"category" : "GT-Collaborate-Tests-Basic-GT-Collaborate-Tests-Basic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "GCDeveloperStatusTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

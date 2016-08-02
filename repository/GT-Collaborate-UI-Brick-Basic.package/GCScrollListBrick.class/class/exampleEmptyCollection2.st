@@ -1,0 +1,3 @@
+examples
+exampleEmptyCollection2
+	^ super exampleEmptyCollection

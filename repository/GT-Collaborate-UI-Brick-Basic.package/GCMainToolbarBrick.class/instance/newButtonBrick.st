@@ -1,0 +1,3 @@
+initialization
+newButtonBrick
+	^ GLMButtonBrick new

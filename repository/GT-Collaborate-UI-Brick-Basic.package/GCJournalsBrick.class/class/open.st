@@ -1,0 +1,3 @@
+open
+open
+	^ self openDefault

@@ -1,0 +1,16 @@
+{
+	"category" : "GT-Collaborate-UI-Brick-Basic-Obsolete",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"journalHolder",
+		"mainBrick",
+		"contentBrick" ],
+	"name" : "GCJournalBrick",
+	"pools" : [
+		 ],
+	"super" : "GLMInteractableBrick",
+	"type" : "normal" }

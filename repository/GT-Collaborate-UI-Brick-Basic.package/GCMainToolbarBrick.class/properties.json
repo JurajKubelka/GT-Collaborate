@@ -1,0 +1,15 @@
+{
+	"category" : "GT-Collaborate-UI-Brick-Basic-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"journalHolder",
+		"plusButton" ],
+	"name" : "GCMainToolbarBrick",
+	"pools" : [
+		 ],
+	"super" : "GLMBrick",
+	"type" : "normal" }

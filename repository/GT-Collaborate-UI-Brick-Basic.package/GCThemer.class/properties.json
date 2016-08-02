@@ -1,0 +1,14 @@
+{
+	"category" : "GT-Collaborate-UI-Brick-Basic-Theme",
+	"classinstvars" : [
+		"uniqueInstance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GCThemer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

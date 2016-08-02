@@ -1,0 +1,3 @@
+examples
+exampleInfinity
+	^ super exampleInfinity

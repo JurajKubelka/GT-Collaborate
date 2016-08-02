@@ -1,0 +1,14 @@
+{
+	"category" : "GT-Collaborate-UI-Brick-Basic-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GCFixedScrollListBrick",
+	"pools" : [
+		 ],
+	"super" : "GLMScrollListBrick",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "GT-Collaborate-UI-Brick-Basic-Obsolete",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GCBrickBuilder",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

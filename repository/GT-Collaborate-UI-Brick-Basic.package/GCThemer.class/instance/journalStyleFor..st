@@ -1,0 +1,3 @@
+styles-widget
+journalStyleFor: aBrick
+	aBrick useHorizontalLinearLayout

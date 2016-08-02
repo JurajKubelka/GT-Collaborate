@@ -1,0 +1,14 @@
+{
+	"category" : "GT-Collaborate-UI-Brick-Basic-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"journals" ],
+	"name" : "GCJournalsHolder",
+	"pools" : [
+		 ],
+	"super" : "GCAnnouncer",
+	"type" : "normal" }

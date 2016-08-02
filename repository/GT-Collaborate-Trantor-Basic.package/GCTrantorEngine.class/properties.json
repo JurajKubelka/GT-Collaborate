@@ -1,0 +1,18 @@
+{
+	"category" : "GT-Collaborate-Trantor-Basic-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"commands",
+		"trantor",
+		"mutex",
+		"ignoreObjectUpdates",
+		"decommands" ],
+	"name" : "GCTrantorEngine",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

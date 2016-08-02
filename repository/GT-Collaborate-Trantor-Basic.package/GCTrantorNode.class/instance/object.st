@@ -1,0 +1,3 @@
+private - accessing
+object
+	^ remoteObject 

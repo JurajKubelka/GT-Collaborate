@@ -1,0 +1,3 @@
+accessing
+isLocalCommandsEmpty
+	^ commands isEmpty

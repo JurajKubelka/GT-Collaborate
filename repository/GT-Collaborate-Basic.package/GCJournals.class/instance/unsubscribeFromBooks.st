@@ -1,0 +1,3 @@
+subscription
+unsubscribeFromBooks
+	self unsubscribeFromBooks: books

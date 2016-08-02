@@ -1,0 +1,3 @@
+subscription
+subscribeToJournal: aJournal
+	"ignore"

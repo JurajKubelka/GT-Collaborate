@@ -1,0 +1,14 @@
+{
+	"category" : "GT-Collaborate-Basic-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GCNullBook",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

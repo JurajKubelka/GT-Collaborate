@@ -1,0 +1,15 @@
+{
+	"category" : "GT-Collaborate-Basic-Developer",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"developer",
+		"date" ],
+	"name" : "GCDeveloperStatus",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

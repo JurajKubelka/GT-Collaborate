@@ -1,0 +1,15 @@
+{
+	"category" : "GT-Collaborate-Trantor-FogBugz",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"topicNumber",
+		"status" ],
+	"name" : "GCFBDeveloperStatusCommand",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

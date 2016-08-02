@@ -1,0 +1,3 @@
+accessing
+journalHolder
+	^ journalBrick journalHolder

@@ -1,0 +1,14 @@
+{
+	"category" : "GT-Collaborate-Tests-UI-Brick",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"journalHolder" ],
+	"name" : "GCJournalHolderTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

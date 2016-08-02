@@ -1,0 +1,1 @@
+A GCJournalBrickTest is a test class for testing the behavior of GCJournalBrick

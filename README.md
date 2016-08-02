@@ -1,4 +1,4 @@
-# GT-Collaboration
+# GT-Collaborate
 Set of tools that permits collaboration in Pharo.
 
 

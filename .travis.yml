@@ -6,3 +6,21 @@ os:
 smalltalk:
 - Pharo-5.0
 - Pharo-6.0
+
+env:
+  global:
+  - secure: ktfngZXSTUn/cnxJayhd3SfF7PXZygxNx00AsvgbwBJlrqP6Mea76yIRUgjfhMyEKTpeVXCOHPrjSaPvqyZDj9l4cuk2olY8rKS3V0DRS3TOSxTUfQl/aUuUyk+O8eQ9cod/2lgoYixjLr2aH1RaVLl2HopS4ZV/2TD1vw+YMZMUSR+RwuwU42aZTwwDN2KJVHkwBJJgvpn8pKyzCxUW8zxo5PMBmt4tG5YcwINE5g0apWkOPANt2iEniEejvCBNMCSup0n0IVwL9bDw1wXFMNhPKXd+M8+0Cj/qz1TXSsW8rYiREAi6KLwfEGjouhjqC9RXyLQ/GDGVRt7FffRixBMyOC+BFkfZBgN2/+X17BZY9RND1EssAs1nyQ4e4GpOw5GFLIS3sYhJstUbcJoohk37rxlr8EycACJcBxnVg5nQHswZhNnMsHWCjEzt5ZLG9THI9zYoMu5WYciPWNcYl4kqnN42KSXLNIgfEZ6oVBNo1vFp9RsYsveiMLg6hb+8z9ueVXe9rRIoUPbotYUVGIhKiwDHjaP5F3B1HMN85GrKWnvtz2hy6PnIzb5SwS6ZjWQK7lQt4u344/bB8CgJOqGtW4362RMRt7OoXMvSqDjd1KWqEU2QRwB/rHRAwwysRmSyUWgtCoRb/2vige/Ar4vYkWY313oEVu6YtEVwcwo=
+  - secure: aJzG6EQylwExIILZZ/rMsGweS5s5eZjvCJ0Oap2wR/atFZv8bk9W80P+RWKkbZDPWSkdvhsZ9IWMesxMl8X3hWTsf76tOUynlCTUxXGleY85ynJRT424IzONA3ob7SlyQFgDSDXAJHQWf++UMmw59yZP8hFje9YE4FN/412E9/ZTvTMIN7FnSzZAsmT6ZLZyVYnfsEYGEBfXOYOA+hY4bqGr/8QFCUAmPcLUcuV08ZJ8CxfL0ekAj1pBu40ZEZowtWotHvQPjQcHiK9wjN4iSoZm+RSa7E3cKfLbXyNXBsBdR6CU1CXCNLRX2lIC0LFeju8KEUrCqr2JaJaEMTlyDs6L+b8k8pmCV8ty0ncPCLKHommvjfunjTmEM+MnpCUvpfFy2BUXRJmcQ3r+6j8mwH6XqvgIU4Q5/LFnq+Mo9XW4pIENRExBqfdyJTv2gORu/AH3uUxF0DzT1xW43pYKHB32ILjPHC8gyEy57I1pyn9xmY3qp4gHgD7KXlYPOknUqZ3ycGxd9XasGCUyWrxOCXVlwrJeaUwnsDQ8qWWIQQF58DyRNJRtNJX77RNwmtdnoRFymTzsN5DEWMLuxTxF/i/54S2puxzKpiGP9JqyRMiXBf01EUvd3+Tg6YFk2qVTbDSw4G2cSVoppmiz1FKT2GhO2FG2zydmvxqbBUXUpSY=
+
+before_deploy:
+  - "deployment/prepareDeploy.sh"
+
+deploy:
+  provider: script
+  skip_cleanup: true
+  script: "deployment/flatDeploy.sh"
+  on:
+    smalltalk: Pharo-6.0
+    condition: "$TRAVIS_OS_NAME = osx"
+    all_branches: true
+    tags: true

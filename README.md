@@ -25,9 +25,16 @@ It is under development. You can install development version in [Pharo 6](http:/
 
 ```
 Metacello new
-baseline: #GTCollaborate;
-repository: 'github://JurajKubelka/GT-Collaborate/repository';
-load.
-
+	baseline: #GTCollaborate;
+	repository: 'github://JurajKubelka/GT-Collaborate/repository';
+	load.
 ```
 
+You can use a bit more stable version using:
+
+```
+Gofer it 
+	smalltalkhubUser: 'JurajKubelka' project: 'Backyard';
+	configurationOf: #FlatGTCollaborate;
+	loadStable.
+```

@@ -1,3 +1,3 @@
-as yet unclassified
+enumerating
 do: aBlockClosure 
 	cases do: aBlockClosure

@@ -1,3 +1,3 @@
-initialization
+accessing
 cases: aGCFogBugzCases
 	cases := aGCFogBugzCases

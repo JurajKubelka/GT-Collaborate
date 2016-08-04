@@ -10,7 +10,8 @@
 		"journals",
 		"cases",
 		"semaphore",
-		"results" ],
+		"results",
+		"monitor" ],
 	"name" : "GCFogBugzBookTest",
 	"pools" : [
 		 ],

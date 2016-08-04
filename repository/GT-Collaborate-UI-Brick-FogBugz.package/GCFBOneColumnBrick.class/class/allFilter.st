@@ -6,7 +6,7 @@ allFilter
 	cases := GCFogBugzCases new.
 	cases addCase: (GCFBExamples default case18763).
 	book := GCFogBugzBook new.
-	book cases: cases monitor: GCFogBugzMonitor new.
+	book cases: cases.
 	journals book: book.
 	^ self new
 		journalsHolder: (GCJournalsHolder new journals: journals; yourself);

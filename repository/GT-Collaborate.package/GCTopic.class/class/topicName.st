@@ -1,3 +1,0 @@
-accesing
-topicName
-	^ 'Text Editor'

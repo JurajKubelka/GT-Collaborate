@@ -1,3 +1,0 @@
-subscription
-subscribeToJournal
-	self subscribeToJournal: self journal

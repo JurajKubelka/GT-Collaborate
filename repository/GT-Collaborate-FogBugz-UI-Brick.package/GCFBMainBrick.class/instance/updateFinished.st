@@ -1,3 +1,0 @@
-announcement handling
-updateFinished
-	self displayEmptyOrListBrick 

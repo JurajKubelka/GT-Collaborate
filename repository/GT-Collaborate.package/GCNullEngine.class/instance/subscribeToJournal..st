@@ -1,3 +1,0 @@
-subscription
-subscribeToJournal: aJournal
-	"ignore"

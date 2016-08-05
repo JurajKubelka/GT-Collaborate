@@ -1,3 +1,0 @@
-update
-updateEmailInputBrick
-	self emailInputBrick setTextWith: self book credentialsLogin

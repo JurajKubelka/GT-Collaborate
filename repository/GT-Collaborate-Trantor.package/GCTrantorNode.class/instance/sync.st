@@ -1,3 +1,0 @@
-syncing
-sync
-	^ node sync

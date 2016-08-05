@@ -1,3 +1,0 @@
-accessing
-flushedResults: aCollection
-	self explicitRequirement

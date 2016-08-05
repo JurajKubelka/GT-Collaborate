@@ -1,3 +1,0 @@
-accessnig - brick
-contentsBrick
-	^ contentsBrick

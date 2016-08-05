@@ -1,3 +1,0 @@
-announcement handling
-topicAdded: anAnnouncement
-	self explicitRequirement

@@ -1,3 +1,0 @@
-accessing
-journal
-	^ journal

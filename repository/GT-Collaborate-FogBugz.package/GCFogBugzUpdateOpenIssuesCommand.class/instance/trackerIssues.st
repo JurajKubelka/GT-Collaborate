@@ -1,0 +1,3 @@
+private
+trackerIssues
+	^ tracker openIssues

@@ -1,3 +1,3 @@
 actions
 update 
-	self updateOpenIssues
+	self updateOpenOrRecentlyClosedIssues

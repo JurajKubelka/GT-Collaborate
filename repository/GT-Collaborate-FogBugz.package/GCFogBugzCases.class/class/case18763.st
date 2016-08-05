@@ -1,4 +1,4 @@
-as yet unclassified
+examples
 case18763
 	<gtExample>
 	^ self new

@@ -1,5 +1,4 @@
 private
 basicExecute
-	tracker openIssues do: [ :eachCase |
-			cases updateCase: eachCase ].
-	self announceUpdateFinished. 
+	self trackerIssues do: [ :eachCase | cases updateCase: eachCase ].
+	self announceUpdateFinished

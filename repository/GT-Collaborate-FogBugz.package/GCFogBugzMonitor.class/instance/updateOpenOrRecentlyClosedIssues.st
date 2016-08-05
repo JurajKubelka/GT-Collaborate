@@ -1,0 +1,3 @@
+actions
+updateOpenOrRecentlyClosedIssues
+	self updateCases: GCFogBugzUpdateOpenOrRecentlyEditedIssuesCommand new

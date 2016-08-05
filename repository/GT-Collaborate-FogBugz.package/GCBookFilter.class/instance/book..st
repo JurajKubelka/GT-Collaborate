@@ -1,3 +1,4 @@
 accessing
 book: anObject
-	book := anObject
+	book := anObject.
+	self updateTopics.

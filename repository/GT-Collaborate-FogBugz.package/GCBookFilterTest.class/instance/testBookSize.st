@@ -1,3 +1,3 @@
 tests
 testBookSize
-	self assert: book size equals: 1.
+	self assert: book size equals: 3.

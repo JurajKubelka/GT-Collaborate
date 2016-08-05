@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"book",
-		"topics",
-		"mutex" ],
-	"name" : "GCBookFilter",
+		 ],
+	"name" : "GCSortFilter",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "GCBookFilter",
 	"type" : "normal" }

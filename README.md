@@ -29,12 +29,3 @@ Metacello new
 	repository: 'github://JurajKubelka/GT-Collaborate/repository';
 	load.
 ```
-
-You can use a bit more stable version using:
-
-```
-Gofer it 
-	smalltalkhubUser: 'JurajKubelka' project: 'Backyard';
-	configurationOf: #FlatGTCollaborate;
-	loadStable.
-```

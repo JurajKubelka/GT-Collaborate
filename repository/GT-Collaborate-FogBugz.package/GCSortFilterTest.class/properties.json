@@ -4,15 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "",
 	"instvars" : [
-		"book",
-		"filter",
-		"semaphore",
-		"results",
-		"cases" ],
-	"name" : "GCBookFilterTest",
+		 ],
+	"name" : "GCSortFilterTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "GCBookFilterTest",
 	"type" : "normal" }

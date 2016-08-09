@@ -1,3 +1,6 @@
 adding
 addTopic: aTopic
-	^ mutex critical: [ self topics addLast: aTopic ]
+	| result |
+	mutex critical: [ result := self topics addLast: aTopic ].
+	self announce: (GCTopicAdded new topic: result; yourself).
+	^ result.

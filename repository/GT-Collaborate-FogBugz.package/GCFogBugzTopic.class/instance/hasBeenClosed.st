@@ -1,3 +1,3 @@
-as yet unclassified
+testing
 hasBeenClosed
 	^ case hasBeenClosed

@@ -2,4 +2,5 @@ styles - fogbugz - main window
 fogBugzToolbarStyleFor: aBrick 
 	aBrick
 		hSpaceFill;
-		height: 15
+		minHeight: 15;
+		vShrinkWrap

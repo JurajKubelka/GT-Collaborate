@@ -4,10 +4,10 @@ listBrick: aBrick
 	listBrick := aBrick.
 	self theme collaborateWidgetThemer fogBugzListStyleFor: aBrick.
 	aBrick model: (GLMBrickListModel new
-		sizeLogic: [ self bookSize ];
+		sizeLogic: [ self filterSize ];
 		morphAtLogic: [ :index :morph | | newBrick |
 			newBrick := (morph ifNil: [ self newRow ]).
-			newBrick topicHolder: (self topicHolderAt: index).
+			newBrick topicHolder: (self filteredTopicHolderAt: index).
 			newBrick ];
 			yourself).
 	isEmptyBrickDisplayed ifFalse: [ self addBrickBack: aBrick ].

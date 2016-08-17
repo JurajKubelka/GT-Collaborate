@@ -11,7 +11,9 @@
 		"emptyListBrick",
 		"listBrick",
 		"book",
-		"journalsHolder" ],
+		"filter",
+		"journalsHolder",
+		"searchFieldBrick" ],
 	"name" : "GCFBMainBrick",
 	"pools" : [
 		 ],

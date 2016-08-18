@@ -1,11 +1,9 @@
 examples
 basic
 	<gtExample>
-	| journals book |
-	journals := GCJournals new.
-	book := GCFogBugzBook new.
-	journals book: book.
+	| journals |
+	journals := GCJournals fogBugzBobThreeCases.
 	^ self new
 		journalsHolder: (GCJournalsHolder new journals: journals; yourself);
-		book: GCFogBugzBook new;
+		book: journals book;
 		yourself

@@ -1,3 +1,4 @@
-as yet unclassified
+visitor
 visitGCFogBugzTopic: aGCFogBugzTopic 
-	^ aGCFogBugzTopic title includesSubstring: self text caseSensitive: false
+	^ (self includesSubstring: aGCFogBugzTopic title) or: [ 
+		self includesSubstring: aGCFogBugzTopic id printString ]

@@ -1,3 +1,5 @@
 private
 updateTopics
-	book do: [ :eachTopic | self addTopicIfSatisfy: eachTopic ]
+	mutex critical: [ 
+		book ifNotNil: [ :aBook |
+			aBook do: [ :eachTopic | self addTopicIfSatisfy: eachTopic ] ] ]

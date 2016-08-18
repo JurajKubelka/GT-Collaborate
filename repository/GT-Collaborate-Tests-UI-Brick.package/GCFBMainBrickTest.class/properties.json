@@ -1,0 +1,17 @@
+{
+	"category" : "GT-Collaborate-Tests-UI-Brick-FogBugz",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"brick",
+		"window",
+		"results",
+		"semaphore" ],
+	"name" : "GCFBMainBrickTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

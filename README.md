@@ -29,3 +29,23 @@ Metacello new
 	repository: 'github://JurajKubelka/GT-Collaborate/repository';
 	load.
 ```
+
+## Development
+
+Download the latest [Pharo 6](http://pharo.org/download) and install: 
+
+```
+Metacello new
+    baseline: 'FileTree';
+    repository: 'github://dalehenrich/filetree:pharo6.0_dev/repository';
+    load: 'Git'.
+```
+
+Download the project source code and execute in a playground following code: 
+
+```
+Metacello new
+    baseline: #GTCollaborate;
+    repository: 'gitfiletree://<your directory>/GT-Collaborate/repository';
+    load.
+```

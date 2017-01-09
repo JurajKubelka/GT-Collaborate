@@ -1,3 +1,3 @@
-as yet unclassified
+accessing - topic
 topicWithNumber: anInteger 
 	^ mutex critical: [ collection detect: [ :eachTopic | eachTopic id = anInteger ] ifNone: [ GCNullTopic default ] ]

@@ -1,3 +1,3 @@
 testing
 isLoggedIn
-	^ tracker isLoggedIn
+	^ tracker ifNotNil: #isLoggedIn ifNil: [ false ]

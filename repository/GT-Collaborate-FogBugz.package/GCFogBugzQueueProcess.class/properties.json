@@ -4,12 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "JurajKubelka 1/9/2017 16:35",
 	"instvars" : [
 		"queue",
 		"process",
 		"mutex" ],
-	"name" : "GCFBQueueProcess",
+	"name" : "GCFogBugzQueueProcess",
 	"pools" : [
 		 ],
 	"super" : "Object",

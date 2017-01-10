@@ -1,0 +1,14 @@
+{
+	"category" : "GT-Collaborate-Commands",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GCUnknownAnnouncement",
+	"pools" : [
+		 ],
+	"super" : "GCFogBugzAnnouncement",
+	"type" : "normal" }

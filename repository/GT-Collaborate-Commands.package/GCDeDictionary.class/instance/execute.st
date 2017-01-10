@@ -1,3 +1,3 @@
 actions
 execute
-	(GCAnnouncement instantiateActionName: (dictionary at: #action)) accept: self.
+	(GCFogBugzAnnouncement instantiateActionName: (dictionary at: #action)) accept: self.

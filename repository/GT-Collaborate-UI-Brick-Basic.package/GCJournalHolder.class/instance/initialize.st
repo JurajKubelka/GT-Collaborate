@@ -1,5 +1,5 @@
 initialization
 initialize
 	super initialize.
-	selectedTopic := GCNullTopic default.
+	selectedTopic := GCFogBugzNullCase default.
 	isSelecting := false.

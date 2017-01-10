@@ -1,3 +1,3 @@
 accessing
 commandClass: aString 
-	^ (GCAnnouncement classActionName: aString) developerStatusCommandClass
+	^ (GCFogBugzAnnouncement classActionName: aString) developerStatusCommandClass

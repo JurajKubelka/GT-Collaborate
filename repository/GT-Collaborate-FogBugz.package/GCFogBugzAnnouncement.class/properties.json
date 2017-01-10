@@ -1,0 +1,14 @@
+{
+	"category" : "GT-Collaborate-FogBugz-Announcements",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JurajKubelka 1/10/2017 12:09",
+	"instvars" : [
+		 ],
+	"name" : "GCFogBugzAnnouncement",
+	"pools" : [
+		 ],
+	"super" : "Announcement",
+	"type" : "normal" }

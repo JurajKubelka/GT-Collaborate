@@ -5,7 +5,7 @@
 	"classtraitcomposition" : "GCSubscriptionTrait classTrait",
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "JurajKubelka 1/10/2017 12:08",
 	"instvars" : [
 		"announcer" ],
 	"name" : "GCAnnouncer",

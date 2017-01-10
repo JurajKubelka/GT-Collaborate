@@ -2,7 +2,6 @@ running
 setUp
 	super setUp.
 	cases := GCFogBugzCases new.
-	cases announcer: GCAnnouncer new.
 	case1a := FogBugzCase new id: 1; title: 'case one'; 
 		lastModification: '2016-07-13T18:18:19.386493-04:00' asDateAndTime; yourself.
 	case1b := FogBugzCase new id: 1; title: 'case one'; 

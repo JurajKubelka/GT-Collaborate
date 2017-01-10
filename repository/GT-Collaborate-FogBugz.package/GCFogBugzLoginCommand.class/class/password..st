@@ -1,3 +1,3 @@
 as yet unclassified
 password: passwordString
-	GCFogBugsSettings uniqueInstance password: passwordString
+	GCFogBugzSettings uniqueInstance password: passwordString

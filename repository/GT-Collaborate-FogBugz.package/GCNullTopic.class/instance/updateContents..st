@@ -1,3 +1,0 @@
-udpate
-updateContents: aText
-	"ignore"

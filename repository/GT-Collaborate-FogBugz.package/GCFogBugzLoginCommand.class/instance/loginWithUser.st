@@ -7,5 +7,5 @@ loginWithUser
 					ifEmpty: [ false ]
 					ifNotEmpty: [ :aPasword |
 						tracker logOnWithEmail: aLogin password: aPasword.
-						GCFogBugsSettings uniqueInstance token: tracker identifyingToken.
+						GCFogBugzSettings uniqueInstance token: tracker identifyingToken.
 						true ] ]

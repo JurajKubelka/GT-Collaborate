@@ -1,3 +1,3 @@
 accessing
 credentialsPassword
-	^ GCFogBugsSettings uniqueInstance password
+	^ GCFogBugzSettings uniqueInstance password

@@ -6,11 +6,10 @@
 		 ],
 	"commentStamp" : "JurajKubelka 1/9/2017 18:17",
 	"instvars" : [
-		"announcer",
 		"collection",
 		"mutex" ],
 	"name" : "GCFogBugzCases",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "GCAnnouncer",
 	"type" : "normal" }

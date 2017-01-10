@@ -10,5 +10,5 @@
 	"name" : "GCFogBugzNetworkAnnouncement",
 	"pools" : [
 		 ],
-	"super" : "GCAnnouncement",
+	"super" : "GCFogBugzAnnouncement",
 	"type" : "normal" }

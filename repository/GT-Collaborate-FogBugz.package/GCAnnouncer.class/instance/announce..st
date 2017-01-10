@@ -1,3 +1,4 @@
 announce
-announce: anAnnouncement
-	^ self announcer announce: anAnnouncement
+announce: anAnnouncement 
+	^ announcer ifNotNil: [ :anAnnouncer |
+		anAnnouncer announce: anAnnouncement ]

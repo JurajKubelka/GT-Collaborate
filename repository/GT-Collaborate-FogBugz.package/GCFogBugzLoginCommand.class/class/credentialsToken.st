@@ -1,3 +1,3 @@
 accessing
 credentialsToken
-	^ GCFogBugsSettings uniqueInstance token
+	^ GCFogBugzSettings uniqueInstance token

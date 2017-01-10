@@ -1,0 +1,15 @@
+{
+	"category" : "GT-Collaborate-FogBugz-Announcements",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"previousValue",
+		"actualValue" ],
+	"name" : "GCObjectChanged",
+	"pools" : [
+		 ],
+	"super" : "GCAnnouncement",
+	"type" : "normal" }

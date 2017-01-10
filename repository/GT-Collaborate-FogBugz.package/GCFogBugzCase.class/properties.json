@@ -1,0 +1,14 @@
+{
+	"category" : "GT-Collaborate-FogBugz-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JurajKubelka 1/10/2017 11:20",
+	"instvars" : [
+		"case" ],
+	"name" : "GCFogBugzCase",
+	"pools" : [
+		 ],
+	"super" : "GCAnnouncer",
+	"type" : "normal" }

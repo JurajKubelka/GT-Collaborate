@@ -1,3 +1,0 @@
-actions
-updateOpenIssues
-	monitor updateOpenIssues

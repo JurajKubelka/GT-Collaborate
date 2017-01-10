@@ -1,7 +1,7 @@
 tests
 testAddTopic
 	| topic |
-	topic := GCFogBugzTopic new case: case1a; yourself.
+	topic := GCFogBugzCase new case: case1a; yourself.
 	cases addTopic: topic.
 	self assert: cases size equals: 1.
 	self assert: cases topics first id equals: topic id.

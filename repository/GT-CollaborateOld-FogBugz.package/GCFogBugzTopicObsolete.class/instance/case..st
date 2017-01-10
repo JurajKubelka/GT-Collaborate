@@ -1,4 +1,4 @@
 accessing
 case: anObject
 	case := anObject.
-	self announce: (GCTopicUpdated new topic: self; yourself)
+	self announce: (GCFogBugzCaseUpdated new topic: self; yourself)

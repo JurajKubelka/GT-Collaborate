@@ -1,3 +1,3 @@
 subscription
 subscribeJournals: aGCJournals 
-	self subscribe: GCAnnouncement send: #announce: to: aGCJournals for: aGCJournals
+	self subscribe: GCFogBugzAnnouncement send: #announce: to: aGCJournals for: aGCJournals

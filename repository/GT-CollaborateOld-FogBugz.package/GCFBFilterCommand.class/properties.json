@@ -1,0 +1,15 @@
+{
+	"category" : "GT-CollaborateOld-FogBugz-Filters",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"book",
+		"filtered" ],
+	"name" : "GCFBFilterCommand",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

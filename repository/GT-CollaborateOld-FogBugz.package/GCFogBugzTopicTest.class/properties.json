@@ -1,0 +1,16 @@
+{
+	"category" : "GT-CollaborateOld-FogBugz-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"topic",
+		"results",
+		"semaphore" ],
+	"name" : "GCFogBugzTopicTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+accessing
+defaultSize
+	^ self subclassResponsibility

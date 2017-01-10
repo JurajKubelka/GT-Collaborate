@@ -1,0 +1,18 @@
+{
+	"category" : "GT-CollaborateOld-FogBugz-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"book",
+		"filter",
+		"semaphore",
+		"results",
+		"cases" ],
+	"name" : "GCBookFilterTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

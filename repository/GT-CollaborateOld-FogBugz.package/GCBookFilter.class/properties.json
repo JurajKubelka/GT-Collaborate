@@ -1,0 +1,16 @@
+{
+	"category" : "GT-CollaborateOld-FogBugz-Filters",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"book",
+		"topics",
+		"mutex" ],
+	"name" : "GCBookFilter",
+	"pools" : [
+		 ],
+	"super" : "GCAnnouncer",
+	"type" : "normal" }

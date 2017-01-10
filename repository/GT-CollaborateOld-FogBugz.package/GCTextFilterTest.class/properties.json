@@ -1,0 +1,14 @@
+{
+	"category" : "GT-CollaborateOld-FogBugz-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GCTextFilterTest",
+	"pools" : [
+		 ],
+	"super" : "GCBookFilterTest",
+	"type" : "normal" }

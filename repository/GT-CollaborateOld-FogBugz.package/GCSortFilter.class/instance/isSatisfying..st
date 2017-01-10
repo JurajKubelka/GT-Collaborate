@@ -1,0 +1,3 @@
+testing
+isSatisfying: aTopic
+	^ true

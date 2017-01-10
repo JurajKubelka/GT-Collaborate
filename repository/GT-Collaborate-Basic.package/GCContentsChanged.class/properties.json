@@ -10,5 +10,5 @@
 	"name" : "GCContentsChanged",
 	"pools" : [
 		 ],
-	"super" : "GCObjectChanged",
+	"super" : "GCFogBugzObjectChanged",
 	"type" : "normal" }

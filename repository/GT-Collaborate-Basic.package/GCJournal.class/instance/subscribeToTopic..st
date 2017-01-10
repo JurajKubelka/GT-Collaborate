@@ -1,3 +1,3 @@
 subscription
 subscribeToTopic: aGCTopic 
-	aGCTopic subscribe: GCTopicUpdated send: #announce: to: self for: self
+	aGCTopic subscribe: GCFogBugzCaseUpdated send: #announce: to: self for: self

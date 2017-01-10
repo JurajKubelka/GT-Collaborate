@@ -3,4 +3,4 @@ topicId: idString
 	^ self 
 		topicId: idString 
 		ifPresent: [ :obj | obj ]
-		ifAbsent: [ GCNullTopic default ]
+		ifAbsent: [ GCFogBugzNullCase default ]

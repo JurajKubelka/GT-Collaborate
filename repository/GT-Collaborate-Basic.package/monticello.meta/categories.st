@@ -1,5 +1,4 @@
 SystemOrganization addCategory: #'GT-Collaborate-Basic'!
-SystemOrganization addCategory: 'GT-Collaborate-Basic-Abstract'!
 SystemOrganization addCategory: 'GT-Collaborate-Basic-Announcement'!
 SystemOrganization addCategory: 'GT-Collaborate-Basic-Core'!
 SystemOrganization addCategory: 'GT-Collaborate-Basic-Developer'!

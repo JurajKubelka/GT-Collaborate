@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "JurajKubelka 1/9/2017 21:31",
 	"instvars" : [
 		 ],
-	"name" : "GCFBNetworkAnnouncement",
+	"name" : "GCFogBugzNotLogged",
 	"pools" : [
 		 ],
-	"super" : "GCAnnouncement",
+	"super" : "GCFogBugzNetworkAnnouncement",
 	"type" : "normal" }

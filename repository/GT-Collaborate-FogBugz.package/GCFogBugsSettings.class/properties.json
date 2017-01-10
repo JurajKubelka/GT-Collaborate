@@ -1,10 +1,10 @@
 {
 	"category" : "GT-Collaborate-FogBugz-Settings",
 	"classinstvars" : [
-		 ],
+		"uniqueInstance" ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "JurajKubelka 1/9/2017 20:50",
 	"instvars" : [
 		"login",
 		"password",

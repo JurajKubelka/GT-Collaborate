@@ -1,0 +1,1 @@
+I inform about a unsuccessful login into a FogBugz server.

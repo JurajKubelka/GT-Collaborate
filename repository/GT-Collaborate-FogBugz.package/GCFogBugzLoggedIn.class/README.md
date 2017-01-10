@@ -1,0 +1,1 @@
+I inform about a successful login into a FogBugz server.

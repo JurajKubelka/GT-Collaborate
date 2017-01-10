@@ -1,5 +1,5 @@
 I represent a background process.
-I am responsible for executing commands (GCFogBugzMonitorCommand) on a background (in an extra thread).
+I am responsible for executing commands (GCFogBugzCommand) on a background (in an extra thread).
 
 I collaborate with GCFogBugzCommandsQueue who is my only owner. We have one-to-one relation. GCFogBugzCommandsQueue keeps all commands that should be executed. Whenever someone adds a command to the queue (GCFogBugzCommandsQueue>>#addCommand:), I am triggered to execute all the commands in the queue.
 

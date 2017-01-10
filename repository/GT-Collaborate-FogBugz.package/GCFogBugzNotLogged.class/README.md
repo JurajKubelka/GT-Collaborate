@@ -1,0 +1,1 @@
+I inform that FogBugzTracker is not already logged-in and thus you cannot call a FogBugz server.

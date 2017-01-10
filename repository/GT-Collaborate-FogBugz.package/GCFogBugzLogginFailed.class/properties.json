@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "JurajKubelka 1/9/2017 21:29",
 	"instvars" : [
-		"exception" ],
-	"name" : "GCFBNetworkError",
+		 ],
+	"name" : "GCFogBugzLogginFailed",
 	"pools" : [
 		 ],
-	"super" : "GCFBNetworkAnnouncement",
+	"super" : "GCFogBugzNetworkAnnouncement",
 	"type" : "normal" }

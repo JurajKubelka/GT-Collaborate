@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "JurajKubelka 1/9/2017 21:10",
 	"instvars" : [
 		 ],
 	"name" : "GCFogBugzDummyCommand",
 	"pools" : [
 		 ],
-	"super" : "GCFogBugzMonitorCommand",
+	"super" : "GCFogBugzCommand",
 	"type" : "normal" }

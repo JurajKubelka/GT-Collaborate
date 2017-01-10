@@ -1,4 +1,4 @@
 announcing
 announceUpdateFinished
 	self announcer ifNotNil: [ :anAnnouncer |
-		anAnnouncer announce: GCFBUpdateFinished logCr ]
+		anAnnouncer announce: GCFogBugzUpdateFinished logCr ]

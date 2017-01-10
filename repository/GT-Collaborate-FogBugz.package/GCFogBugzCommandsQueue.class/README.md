@@ -1,5 +1,5 @@
 I represent a command queue.
-I am responsible to receive commands (GCFogBugzMonitorCommand), and execute them on background one after another. 
+I am responsible to receive commands (GCFogBugzCommand), and execute them on background one after another. 
 
 I collaborate with GCFogBugzQueueProcess who executes the commands in a background. GCFogBugzMonitor owns me and adds corresponding commands to the queue. I automatically execute them.
 

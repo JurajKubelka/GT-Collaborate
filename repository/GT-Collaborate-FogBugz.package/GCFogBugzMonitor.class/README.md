@@ -5,7 +5,7 @@ I collaborate with GCFogBugzCommandsQueue that knows how to execute all commands
 
 I collaborate with FogBugzTracker who knows how to proceed some operations on the FogBugz server.
 
-I am owned by GCFogBugzBook who share with me GCFogBugzCases, and Announcer. I pass both to some GCFogBugzMonitorCommand objects. I do not use GCFogBugzCases, neither Announcer.
+I am owned by GCFogBugzBook who share with me GCFogBugzCases, and Announcer. I pass both to some GCFogBugzCommand objects. I do not use GCFogBugzCases, neither Announcer.
 
 Public API and Key Messages
 

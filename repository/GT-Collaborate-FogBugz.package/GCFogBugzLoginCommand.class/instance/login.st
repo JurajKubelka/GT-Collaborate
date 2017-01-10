@@ -1,6 +1,6 @@
 login
 login
-	tracker isLoggedIn
+	self isLoggedIn
 		ifFalse: [
 			[ 	self loginWithToken or: [ self loginWithUser ].
 				self announceResult.

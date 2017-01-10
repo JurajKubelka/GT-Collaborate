@@ -32,6 +32,19 @@ Ouput:
 
 Process: Developers can pre-select cases by adding a tag called `sprint` to any opened case using the FogBugz website.
 
+## Pharo Sprint Server
+
+Trantor for communciation with clients: 
+- based on commands that are shared among computers
+- each client keeps a local copy
+
+Trantor Commands:
+- Updated Case List - return a list of cases. Each client has to
+add/update/remove given cases
+- Case Status Change - return a case status change according to Case Statuses During Pharo Sprint
+
+The server will communcate with FogBugz using WebHooks if possible.
+
 ## Case Assignment
 
 Input:

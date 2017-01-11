@@ -32,15 +32,14 @@ Ouput:
 
 Process: Developers can pre-select cases by adding a tag called `sprint` to any opened case using the FogBugz website.
 
-## Pharo Sprint Server
+## Pharo Sprint Server (likely obsolete idea)
 
 Trantor for communciation with clients: 
 - based on commands that are shared among computers
 - each client keeps a local copy
-
+Each client has to add/update/remove given cases. This contents is a response from a FogBugz server.
 Trantor Commands:
-- Updated Case List - return a list of cases. Each client has to
-add/update/remove given cases
+- Updated Case List - return a list of cases. Each client has to add/update/remove given cases. This contents is a response from a FogBugz server.
 - Case Status Change - return a case status change according to Case Statuses During Pharo Sprint
 
 The server will communcate with FogBugz using WebHooks if possible.
@@ -60,8 +59,8 @@ Pharo Sprint Server receives updates from FogBugz using Webhooks and can change 
 
 ## Case Statuses During Pharo Sprint
 
-### In the Suggested Cases List
-- Sugested. A preselected case (an initial state).
+### In the Proposed Cases List
+- Proposed. A preselected case (an initial state).
 - Renounced. Someone took a case before but gave up it (from Taken and Retaken).
 - ImproveIt. Someone done a case, but it is necessary to improve it (from Improving, Done, and Reworked).
 

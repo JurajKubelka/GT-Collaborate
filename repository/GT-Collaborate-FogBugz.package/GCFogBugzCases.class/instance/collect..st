@@ -1,3 +1,3 @@
-as yet unclassified
+enumerating
 collect: aBlock 
-	^ collection collect: aBlock
+	^ mutex critical: [ collection collect: aBlock ]

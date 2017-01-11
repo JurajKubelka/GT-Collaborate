@@ -1,3 +1,3 @@
 actions
-done: aStateContext 
+finish: aStateContext 
 	aStateContext state: GCSprintDoneCaseState default

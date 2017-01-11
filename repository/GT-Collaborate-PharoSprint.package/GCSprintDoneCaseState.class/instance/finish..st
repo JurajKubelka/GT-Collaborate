@@ -1,3 +1,3 @@
 actions
-done: aStateContext 
+finish: aStateContext 
 	"do not change a state"

@@ -1,4 +1,4 @@
 tests
-testDone
-	state done: self.
+testFinish
+	state finish: self.
 	self assert: newState class equals: self doneStateClass

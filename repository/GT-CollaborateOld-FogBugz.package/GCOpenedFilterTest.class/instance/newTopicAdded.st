@@ -1,3 +1,3 @@
 instance creation
 newTopicAdded
-	^ GCFBExamples default topic18482
+	^ GCFogBugzExamples default topic18482

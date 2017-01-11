@@ -1,0 +1,1 @@
+I represent a FogBugz announcement with actual and previous value.

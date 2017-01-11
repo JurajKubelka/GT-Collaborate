@@ -1,0 +1,14 @@
+{
+	"category" : "GT-Collaborate-PharoSprint-State",
+	"classinstvars" : [
+		"uniqueInstance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GCSprintIdentifyState",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

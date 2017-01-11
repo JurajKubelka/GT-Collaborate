@@ -4,7 +4,7 @@ allFilter
 	| journals book cases |
 	journals := GCJournals new.
 	cases := GCFogBugzCases new.
-	cases addCase: (GCFBExamples default case18763).
+	cases addCase: (GCFogBugzExamples default case18763).
 	book := GCFogBugzBook new.
 	book cases: cases.
 	journals book: book.

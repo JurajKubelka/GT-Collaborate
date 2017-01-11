@@ -1,0 +1,3 @@
+cleanup
+default
+	^ self uniqueInstance

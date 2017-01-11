@@ -10,5 +10,5 @@
 	"name" : "GCFogBugzCaseUpdated",
 	"pools" : [
 		 ],
-	"super" : "GCFogBugzObjectChanged",
+	"super" : "GCFogBugzAnnouncement",
 	"type" : "normal" }

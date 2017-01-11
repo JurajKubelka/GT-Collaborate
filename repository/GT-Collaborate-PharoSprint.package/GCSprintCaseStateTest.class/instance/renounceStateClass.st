@@ -1,0 +1,3 @@
+accessing
+renounceStateClass
+	^ self subclassResponsibility

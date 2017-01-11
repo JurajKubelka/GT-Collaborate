@@ -1,0 +1,3 @@
+accessing
+proposedStateClass
+	^ self subclassResponsibility

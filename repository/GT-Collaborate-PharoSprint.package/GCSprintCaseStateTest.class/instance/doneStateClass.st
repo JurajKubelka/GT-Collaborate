@@ -1,0 +1,3 @@
+accessing
+doneStateClass
+	^ self subclassResponsibility

@@ -1,0 +1,14 @@
+{
+	"category" : "GT-Collaborate-PharoSprint-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GCSprintDoneCaseStateTest",
+	"pools" : [
+		 ],
+	"super" : "GCSprintCaseStateTest",
+	"type" : "normal" }

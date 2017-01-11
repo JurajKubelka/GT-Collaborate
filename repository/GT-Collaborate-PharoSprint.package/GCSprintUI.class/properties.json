@@ -1,0 +1,14 @@
+{
+	"category" : "GT-Collaborate-PharoSprint-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sprint" ],
+	"name" : "GCSprintUI",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

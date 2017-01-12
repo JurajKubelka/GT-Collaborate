@@ -1,4 +1,4 @@
-instance creation
+build ui
 buildTabulator: aGLMTabulator
 	aGLMTabulator column: #proposed; column: #taken; column: #done.
 	aGLMTabulator transmit to: #proposed; andShow: [ :a | 
@@ -8,8 +8,7 @@ buildTabulator: aGLMTabulator
 				col := aSprint proposed.
 				col ifEmpty: [ col addFirst: 'you are done :-)' ].
 				col ];
-			allowItemDrag: [ :item :list | item isGCFogBugCase ];
-			allowDropOnItem: [ :draggedObject :targetItem :list | draggedObject isGCFogBugCase ];
+			gcConfigureList: self;
 			dropOnItem: [ :draggedObject :targetItem :list | 
 				draggedObject renounce.
 				aGLMTabulator update.
@@ -22,8 +21,7 @@ buildTabulator: aGLMTabulator
 				col := aSprint taken.
 				col ifEmpty: [ col addFirst: 'be first :-)' ].
 				col ];
-			allowItemDrag: [ :item :list | item isGCFogBugCase ];
-			allowDropOnItem: [ :draggedObject :targetItem :list | draggedObject isGCFogBugCase ];
+			gcConfigureList: self;
 			dropOnItem: [ :draggedObject :targetItem :list | 
 				draggedObject take.
 				aGLMTabulator update.
@@ -36,11 +34,11 @@ buildTabulator: aGLMTabulator
 				col := aSprint done.
 				col ifEmpty: [ col addFirst: 'be first :-)' ].
 				col ];
-			allowItemDrag: [ :item :list | item isGCFogBugCase ];
-			allowDropOnItem: [ :draggedObject :targetItem :list | draggedObject isGCFogBugCase ];
+			gcConfigureList: self;
 			dropOnItem: [ :draggedObject :targetItem :list | 
 				draggedObject finish.
 				aGLMTabulator update.
 				true ]
 			].
+
 	^ aGLMTabulator

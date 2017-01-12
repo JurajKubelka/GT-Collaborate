@@ -12,6 +12,21 @@ buildTabulator: aGLMTabulator
 			dropOnItem: [ :draggedObject :targetItem :list | 
 				draggedObject renounce.
 				aGLMTabulator update.
+				true ].
+		a list 
+			title: 'All';
+			display: [ :aSprint | | col | 
+				col := aSprint all.
+				col ifEmpty: [ col addFirst: 'nothing to do :-)' ].
+				col ];
+			gcConfigureList: self;
+			selectionAct: [ :list :sprint | 
+					list selection ifNotNil: [ :aCase | aCase propose ]. 
+					aGLMTabulator update. ] 
+				entitled: 'Propose for Pharo Sprint';
+			dropOnItem: [ :draggedObject :targetItem :list | 
+				draggedObject renounce.
+				aGLMTabulator update.
 				true ]
 			].
 	aGLMTabulator transmit to: #taken; andShow: [:a |  

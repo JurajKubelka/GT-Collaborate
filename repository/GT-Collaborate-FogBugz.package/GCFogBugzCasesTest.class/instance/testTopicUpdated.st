@@ -1,5 +1,6 @@
 tests
 testTopicUpdated
+	"a topic should not be updated because of the same case"
 	| result |
 	result := OrderedCollection new.
 	self testUpdateCase.

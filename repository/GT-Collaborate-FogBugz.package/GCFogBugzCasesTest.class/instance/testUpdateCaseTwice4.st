@@ -1,5 +1,6 @@
 tests
 testUpdateCaseTwice4
+	"add two cases"
 	self testUpdateCase.
 	cases updateCase: case2.
 	self assert: cases size equals: 2.

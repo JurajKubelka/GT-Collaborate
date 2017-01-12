@@ -1,5 +1,6 @@
 tests
 testTopicUpdated2
+	"case is not updated because of the same modification time"
 	| result |
 	result := OrderedCollection new.
 	self testUpdateCase.

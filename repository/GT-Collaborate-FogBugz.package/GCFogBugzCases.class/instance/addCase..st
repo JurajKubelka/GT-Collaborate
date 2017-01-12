@@ -1,3 +1,3 @@
 adding
 addCase: aFogBugzCase 
-	^ self addTopic: (GCFogBugzCase new case: aFogBugzCase; yourself)
+	^ self addTopic: aFogBugzCase asGCFogBugzCase

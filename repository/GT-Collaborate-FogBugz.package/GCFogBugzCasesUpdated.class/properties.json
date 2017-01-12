@@ -1,0 +1,14 @@
+{
+	"category" : "GT-Collaborate-FogBugz-Announcements",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"topics" ],
+	"name" : "GCFogBugzCasesUpdated",
+	"pools" : [
+		 ],
+	"super" : "GCFogBugzAnnouncement",
+	"type" : "normal" }

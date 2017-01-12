@@ -1,8 +1,7 @@
 tests
-testUpdateCaseTwice2
-	"case is not updated because of the same modification time"
-	self testUpdateCase.
-	cases updateCase: case1b.
+testUpdateCases
+	"add a new case"
+	cases updateCases: { case1a }.
 	self assert: cases size equals: 1.
 	self assert: cases topics first id equals: case1a id.
 	self assert: cases topics first isTopic.

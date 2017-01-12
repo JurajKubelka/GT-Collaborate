@@ -1,4 +1,4 @@
 private
 basicExecute
-	self trackerIssues do: [ :eachCase | cases updateCase: eachCase ].
+	cases updateCases: self trackerIssues.
 	self announceUpdateFinished

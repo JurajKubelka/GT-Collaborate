@@ -1,8 +1,9 @@
 *GT-Collaborate-PharoSprint
 state: aGCSprintCaseState 
 	| result |
-	result := self infoAt: #state put: aGCSprintCaseState.
-	self announce: (GCSprintCaseStateChanged new 
+	result := self rawState: aGCSprintCaseState.
+	self announce: (GCSprintLocalCaseStateChanged new 
+		case: self;
 		state: result;
 		yourself).
 	^ result

@@ -1,0 +1,3 @@
+enumerating
+all
+	^ commands asOrderedCollection

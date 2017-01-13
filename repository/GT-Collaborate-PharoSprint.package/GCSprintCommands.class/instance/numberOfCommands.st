@@ -1,0 +1,3 @@
+convenience
+numberOfCommands
+	^ commands size

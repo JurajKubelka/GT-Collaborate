@@ -1,14 +1,14 @@
 {
-	"category" : "GT-Collaborate-PharoSprint-Trantor",
+	"category" : "GT-Collaborate-PharoSprint-Commands",
 	"classinstvars" : [
-		"uniqueInstance" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"node",
-		"trantorObject" ],
-	"name" : "GCTrantorServer",
+		"fogbugz",
+		"commands" ],
+	"name" : "GCSprintUpdateRemoteCommands",
 	"pools" : [
 		 ],
 	"super" : "Object",

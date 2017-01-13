@@ -1,3 +1,5 @@
 accessing
-fogbugz: anObject
-	fogbugz := anObject
+fogbugz: aGCFogBugz
+	self unsubscribe.
+	fogbugz := aGCFogBugz.
+	self subscribe.

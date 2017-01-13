@@ -1,3 +1,0 @@
-public
-sync
-	trantorNode sync

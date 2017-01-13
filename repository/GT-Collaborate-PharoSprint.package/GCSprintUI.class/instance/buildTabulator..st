@@ -17,12 +17,14 @@ buildTabulator: aGLMTabulator
 		a list 
 			title: 'All';
 			display: [ :aSprint | | col | 
-				col := aSprint all.
+				col := aSprint undefinedAndOpen.
 				col ifEmpty: [ col addFirst: 'nothing to do :-)' ].
 				col ];
 			gcConfigureList: self;
 			selectionAct: [ :list :sprint | 
-					list selection ifNotNil: [ :aCase | aCase propose ]. 
+					list selection ifNotNil: [ :aCase | | aSprint |
+						aSprint := list entity.
+						aCase propose: aSprint developer ]. 
 					aGLMTabulator update. ] 
 				entitled: 'Propose for Pharo Sprint';
 			dropOnItem: [ :draggedObject :targetItem :list | | aSprint |

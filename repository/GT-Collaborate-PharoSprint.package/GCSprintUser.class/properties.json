@@ -1,0 +1,14 @@
+{
+	"category" : "GT-Collaborate-PharoSprint-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name" ],
+	"name" : "GCSprintUser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

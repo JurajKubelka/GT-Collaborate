@@ -1,3 +1,3 @@
-accessing
+actions
 propose: aStateContext 
 	self subclassResponsibility

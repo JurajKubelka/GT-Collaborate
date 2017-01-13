@@ -9,8 +9,9 @@ buildTabulator: aGLMTabulator
 				col ifEmpty: [ col addFirst: 'you are done :-)' ].
 				col ];
 			gcConfigureList: self;
-			dropOnItem: [ :draggedObject :targetItem :list | 
-				draggedObject renounce.
+			dropOnItem: [ :draggedObject :targetItem :list | | aSprint |
+				aSprint := list entity.
+				draggedObject renounce: aSprint developer.
 				aGLMTabulator update.
 				true ].
 		a list 
@@ -24,8 +25,9 @@ buildTabulator: aGLMTabulator
 					list selection ifNotNil: [ :aCase | aCase propose ]. 
 					aGLMTabulator update. ] 
 				entitled: 'Propose for Pharo Sprint';
-			dropOnItem: [ :draggedObject :targetItem :list | 
-				draggedObject renounce.
+			dropOnItem: [ :draggedObject :targetItem :list | | aSprint |
+				aSprint := list entity.
+				draggedObject renounce: aSprint developer.
 				aGLMTabulator update.
 				true ]
 			].
@@ -37,8 +39,9 @@ buildTabulator: aGLMTabulator
 				col ifEmpty: [ col addFirst: 'be first :-)' ].
 				col ];
 			gcConfigureList: self;
-			dropOnItem: [ :draggedObject :targetItem :list | 
-				draggedObject take.
+			dropOnItem: [ :draggedObject :targetItem :list | | aSprint |
+				aSprint := list entity.
+				draggedObject take: aSprint developer.
 				aGLMTabulator update.
 				true ]
 			].
@@ -50,8 +53,9 @@ buildTabulator: aGLMTabulator
 				col ifEmpty: [ col addFirst: 'be first :-)' ].
 				col ];
 			gcConfigureList: self;
-			dropOnItem: [ :draggedObject :targetItem :list | 
-				draggedObject finish.
+			dropOnItem: [ :draggedObject :targetItem :list | | aSprint |
+				aSprint := list entity.
+				draggedObject finish: aSprint developer.
 				aGLMTabulator update.
 				true ]
 			].

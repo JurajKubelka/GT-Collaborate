@@ -1,0 +1,15 @@
+{
+	"category" : "GT-Collaborate-PharoSprint-Trantor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"trantorNode",
+		"commands" ],
+	"name" : "GCSprintCommands",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

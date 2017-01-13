@@ -1,4 +1,5 @@
 tests
 testTake
-	state take: self.
-	self assert: newState class equals: self takenStateClass
+	state take: self developer: developer.
+	self assert: newState class equals: self takenStateClass.
+	self assertNewStateDeveloper.

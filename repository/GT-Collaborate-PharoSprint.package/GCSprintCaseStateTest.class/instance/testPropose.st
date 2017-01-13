@@ -1,4 +1,5 @@
 tests
 testPropose
-	state propose: self.
-	self assert: newState class equals: self proposedStateClass
+	state propose: self developer: developer.
+	self assert: newState class equals: self proposedStateClass.
+	self assertNewStateDeveloper.

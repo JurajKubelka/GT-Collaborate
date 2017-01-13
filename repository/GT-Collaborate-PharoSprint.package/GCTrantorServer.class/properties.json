@@ -1,0 +1,15 @@
+{
+	"category" : "GT-Collaborate-PharoSprint-Trantor",
+	"classinstvars" : [
+		"uniqueInstance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"node",
+		"trantorObject" ],
+	"name" : "GCTrantorServer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

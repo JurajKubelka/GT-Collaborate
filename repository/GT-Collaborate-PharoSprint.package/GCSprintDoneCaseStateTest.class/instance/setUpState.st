@@ -1,3 +1,3 @@
 initialization
 setUpState
-	state := GCSprintDoneCaseState default
+	state := GCSprintDoneCaseState developer: self developer

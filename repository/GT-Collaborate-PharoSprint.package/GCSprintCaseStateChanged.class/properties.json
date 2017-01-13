@@ -1,0 +1,14 @@
+{
+	"category" : "GT-Collaborate-PharoSprint-Announcement",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"state" ],
+	"name" : "GCSprintCaseStateChanged",
+	"pools" : [
+		 ],
+	"super" : "GCFogBugzAnnouncement",
+	"type" : "normal" }

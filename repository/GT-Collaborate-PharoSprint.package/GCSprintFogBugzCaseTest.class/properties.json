@@ -1,0 +1,14 @@
+{
+	"category" : "GT-Collaborate-PharoSprint-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"developer" ],
+	"name" : "GCSprintFogBugzCaseTest",
+	"pools" : [
+		 ],
+	"super" : "GCFogBugzCaseTest",
+	"type" : "normal" }

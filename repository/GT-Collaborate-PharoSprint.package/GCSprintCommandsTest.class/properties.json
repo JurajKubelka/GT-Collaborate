@@ -1,0 +1,17 @@
+{
+	"category" : "GT-Collaborate-PharoSprint-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"state",
+		"local",
+		"remote",
+		"server" ],
+	"name" : "GCSprintCommandsTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

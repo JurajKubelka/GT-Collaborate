@@ -1,3 +1,3 @@
 accessing
-default 
-	^ self uniqueInstance
+default
+	^ self new

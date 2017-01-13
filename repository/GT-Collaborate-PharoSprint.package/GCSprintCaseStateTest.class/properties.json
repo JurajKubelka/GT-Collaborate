@@ -7,7 +7,8 @@
 	"commentStamp" : "<historical>",
 	"instvars" : [
 		"state",
-		"newState" ],
+		"newState",
+		"developer" ],
 	"name" : "GCSprintCaseStateTest",
 	"pools" : [
 		 ],

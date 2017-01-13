@@ -1,12 +1,12 @@
 {
 	"category" : "GT-Collaborate-PharoSprint-State",
 	"classinstvars" : [
-		"uniqueInstance" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"developer" ],
 	"name" : "GCSprintCaseState",
 	"pools" : [
 		 ],

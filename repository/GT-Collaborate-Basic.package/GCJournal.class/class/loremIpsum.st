@@ -3,7 +3,7 @@ loremIpsum
 	<gtExample>
 	<label: 'Journal with four lorem ipsum topics.'>
 	^ self new
-			authentication: GCUser alice;
+			authentication: GCSprintUser alice;
 			addTopic: (GCTopic loremIpsum: '1.');
 			addTopic: (GCTopic loremIpsum: '2.');
 			addTopic: (GCTopic loremIpsum: '3.');

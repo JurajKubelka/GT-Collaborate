@@ -1,6 +1,6 @@
 initialization
 initialize
 	super initialize.
-	authentication := GCUser new.
+	authentication := GCSprintUser new.
 	topics := OrderedCollection new.
 	engine := GCNullEngine default.

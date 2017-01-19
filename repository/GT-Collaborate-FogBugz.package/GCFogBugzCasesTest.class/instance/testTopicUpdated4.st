@@ -1,8 +1,0 @@
-tests
-testTopicUpdated4
-	| result |
-	result := OrderedCollection new.
-	self testUpdateCase.
-	cases subscribe: GCFogBugzCaseUpdated do: [ :ann | result addLast: ann ].
-	self testUpdateCase.
-	self assert: result isEmpty.

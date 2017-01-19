@@ -1,3 +1,3 @@
 testing
 hasTopics
-	^ topics notNil and: [ topics notEmpty ]
+	^ self hasNewTopics or: [ self hasUpdatedTopics ]

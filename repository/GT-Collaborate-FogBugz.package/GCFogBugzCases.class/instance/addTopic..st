@@ -1,7 +1,7 @@
-adding
+private
 addTopic: aGCFogBugzCase
 	| result |
-	result := self rawAddTopic: aGCFogBugzCase.
+	result := mutex critical: [ collection addLast: aGCFogBugzCase ].
 	result subscribe: GCFogBugzAnnouncement send: #announce: to: self for: self.
-	self announce: (GCFogBugzCaseAdded new topic: result; yourself).
 	^ result
+	

@@ -4,9 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "JurajKubelka 1/19/2017 15:57",
 	"instvars" : [
-		"topics" ],
+		"updatedTopics",
+		"newTopics" ],
 	"name" : "GCFogBugzCasesUpdated",
 	"pools" : [
 		 ],

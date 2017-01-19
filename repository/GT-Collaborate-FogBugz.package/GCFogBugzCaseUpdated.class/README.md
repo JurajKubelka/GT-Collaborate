@@ -1,2 +1,2 @@
 I represent a FogBugz announcement. 
-I inform about FogBugzCase changes.
+I inform about one FogBugzCase change.

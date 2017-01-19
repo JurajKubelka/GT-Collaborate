@@ -10,7 +10,7 @@ updateCases: aCollectionOfFogBugzCase
 					(aTopic lastModification isNil or: [ 
 						aTopic lastModification < eachFogBugzCase lastModification ]) ifTrue: [ 
 							aTopic case: eachFogBugzCase.
-							announcement add: aTopic ] ]
-				ifNone: [ announcement add: (self rawAddTopic: eachFogBugzCase asGCFogBugzCase) ] 
+							announcement updatedTopic: aTopic ] ]
+				ifNone: [ announcement newTopic: (self addTopic: eachFogBugzCase asGCFogBugzCase) ] 
 		] ].
 	announcement hasTopics ifTrue: [ self announce: announcement ].

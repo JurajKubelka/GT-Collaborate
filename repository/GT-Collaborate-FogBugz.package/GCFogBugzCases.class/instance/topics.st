@@ -1,3 +1,3 @@
-private - accessing
+private
 topics
 	^ collection copy

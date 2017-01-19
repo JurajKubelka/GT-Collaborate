@@ -1,9 +1,9 @@
 gt-inspector-extension
-gtInspectorItemsIn: composite
+gtInspectorCasesIn: composite
 	<gtInspectorPresentationOrder: 0>
 	^ cases 
 		ifNotNil: [ :aCases |
-			(aCases gtInspectorItemsIn: composite)
+			(aCases gtInspectorCasesIn: composite)
 				title: 'Cases';
 				yourself ]
 		ifNil: [ composite ]

@@ -1,5 +1,5 @@
 gt-inspector-extension
-gtInspectorItemsIn: composite
+gtInspectorCasesIn: composite
 	<gtInspectorPresentationOrder: 0>
 	^ collection 
 		ifNotNil: [ :aCollection |

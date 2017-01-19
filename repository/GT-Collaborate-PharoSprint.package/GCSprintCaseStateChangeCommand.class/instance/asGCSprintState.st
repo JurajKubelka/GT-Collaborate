@@ -1,4 +1,4 @@
-as yet unclassified
+converting
 asGCSprintState
 	| developer newState |
 	developer := GCSprintUser named: self developerId.

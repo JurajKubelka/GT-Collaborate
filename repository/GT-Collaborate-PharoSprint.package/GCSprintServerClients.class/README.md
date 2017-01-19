@@ -1,0 +1,2 @@
+I keep one GCSprintCommandsServer and GCSprint instances.
+I am useful for testing, because syncing mechanism is done explicitly, network timeout is just one second, and there are no other threads involved.

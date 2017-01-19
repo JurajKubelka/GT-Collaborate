@@ -1,0 +1,3 @@
+announcement handling
+remoteStateChanged: aGCSprintRemoteCaseStatesChanged 
+	self updateCaseStates: aGCSprintRemoteCaseStatesChanged commands.

@@ -1,5 +1,5 @@
 gt-inspector-extension
-gtInspectorItemsIn: composite
+gtInspectorUIIn: composite
 	<gtInspectorPresentationOrder: 0>
 	^ (GCSprintUI new buildTabulator: composite tabulator)
-		title: 'Cases'
+		title: 'UI'

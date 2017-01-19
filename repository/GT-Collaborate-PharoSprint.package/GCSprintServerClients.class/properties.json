@@ -4,11 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "JurajKubelka 1/19/2017 14:23",
 	"instvars" : [
-		"nodes" ],
-	"name" : "GCSprintTest",
+		"server",
+		"clients" ],
+	"name" : "GCSprintServerClients",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "Object",
 	"type" : "normal" }

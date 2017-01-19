@@ -1,0 +1,3 @@
+tests
+testDisconnect
+	nodes disconnect

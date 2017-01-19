@@ -1,6 +1,7 @@
 tests
 testProposedCaseIsInCommands
-	self assert: local commands numberOfCommands equals: 0.
-	case1 := local undefinedAndOpen first.
-	case1 propose: local developer.
-	self assert: local commands numberOfCommands equals: 1
+	nodes newOneClient.
+	nodes addThreeCases.
+	self assert: nodes firstClient commands numberOfCommands equals: 0.
+	nodes firstClientProposeCase.
+	self assert: nodes firstClient commands numberOfCommands equals: 1

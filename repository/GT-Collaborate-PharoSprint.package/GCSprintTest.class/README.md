@@ -1,1 +1,0 @@
-A GCSprintTest is a test class for testing the behavior of GCSprint

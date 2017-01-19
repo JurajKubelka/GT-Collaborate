@@ -1,6 +1,6 @@
 build ui
 configureList: aList
-	aList
+	^ aList
 		tags: [ :eachCase | (eachCase isGCFogBugCase and: [ eachCase developer notNil ])
 			ifTrue: [ { eachCase developer name } ]
 			ifFalse: [ #() ] ];

@@ -1,7 +1,7 @@
 {
 	"category" : "GT-Collaborate-PharoSprint-Model",
 	"classinstvars" : [
-		 ],
+		"public" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",

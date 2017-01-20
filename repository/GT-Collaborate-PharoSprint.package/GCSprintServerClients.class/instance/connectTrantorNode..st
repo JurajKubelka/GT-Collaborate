@@ -5,19 +5,19 @@ connectTrantorNode: aTrantorNode
 	[ 
 		listener listenOn: 0 backlogSize: 4.
 		clientSocket := Socket newTCP.
-		clientSocket connectTo: #[127 0 0 1] port: listener localPort waitForConnectionFor: 1.
-		clientSocket waitForConnectionFor: 1.
-		serverSocket := listener waitForAcceptFor: 1. 
+		clientSocket connectTo: #[127 0 0 1] port: listener localPort waitForConnectionFor: self connectionTimeout.
+		clientSocket waitForConnectionFor: self connectionTimeout.
+		serverSocket := listener waitForAcceptFor: self connectionTimeout.
 	] ensure: [ listener destroy ].
 
 	clientConnection := TrantorPeerClientIpConnection new 
-		connection: ((SocketStream on: clientSocket) binary timeout: 1);
+		connection: ((SocketStream on: clientSocket) binary; timeout: self socketStreamTimeout);
 		ip: clientSocket localAddress;
 		port: clientSocket localPort;
 		yourself.
 		
 	serverConnection := TrantorPeerServerConnection new 
-		connection: ((SocketStream on: serverSocket) binary timeout: 1);
+		connection: ((SocketStream on: serverSocket) binary; timeout: self socketStreamTimeout);
 		yourself.
 		
 	aTrantorNode addConnection: clientConnection.

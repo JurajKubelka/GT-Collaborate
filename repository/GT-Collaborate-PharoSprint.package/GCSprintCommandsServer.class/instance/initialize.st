@@ -5,8 +5,9 @@ initialize
 	node port: 0.
 	trantorObject := node add: GCSprintCommands sharedObject id: GCSprintCommands sharedObjectId.
 	(node announcer
-		subscribe: TrantorObjectAdded, TrantorConnectionAdded
-		send: #sync to: node) subscriber: self.
+		subscribe: TrantorConnectionAdded
+		send: #syncOnAnnouncement: to: node) subscriber: self.
+
 	(trantorObject trantorAnnouncer 
 		subscribe: TrantorObjectChanged 
 		send: #sync 

@@ -1,4 +1,4 @@
 configuration
 socketStreamTimeout
 	"in seconds"
-	^ 3
+	^ 1

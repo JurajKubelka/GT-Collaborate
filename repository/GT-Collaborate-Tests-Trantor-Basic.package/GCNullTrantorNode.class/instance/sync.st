@@ -1,3 +1,0 @@
-syncing
-sync
-	"ignore it"

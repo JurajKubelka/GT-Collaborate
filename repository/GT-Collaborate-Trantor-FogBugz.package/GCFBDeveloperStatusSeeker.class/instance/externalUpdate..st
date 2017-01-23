@@ -1,3 +1,0 @@
-announcement handling
-externalUpdate: aTrantorObjectAdded 
-	self dictionaries: aTrantorObjectAdded object asOrderedCollection

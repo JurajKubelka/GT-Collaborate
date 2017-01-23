@@ -1,3 +1,0 @@
-update
-updateBricks
-	self updateListBrick.

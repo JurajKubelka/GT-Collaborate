@@ -1,3 +1,0 @@
-accessing - brick
-toolBarBrick
-	^ toolBarBrick

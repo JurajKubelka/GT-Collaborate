@@ -1,6 +1,0 @@
-{
-	"category" : "GT-Collaborate-Tests-Basic-GT-Collaborate-Tests-Basic",
-	"classtraitcomposition" : "GCResultsSetUpTrait classTrait + GCBasicJournalSetUpTrait classTrait",
-	"commentStamp" : "",
-	"name" : "GCJournalSetUpTrait",
-	"traitcomposition" : "GCResultsSetUpTrait + GCBasicJournalSetUpTrait" }

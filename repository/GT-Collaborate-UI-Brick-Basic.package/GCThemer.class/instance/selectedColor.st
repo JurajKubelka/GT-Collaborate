@@ -1,3 +1,0 @@
-colors
-selectedColor
-	^ Color veryVeryLightGray

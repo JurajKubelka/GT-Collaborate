@@ -1,3 +1,0 @@
-accessing - brick
-topicsBrick
-	^ topicsBrick

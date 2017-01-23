@@ -1,3 +1,0 @@
-testing
-hasBeenClosed
-	^ case hasBeenClosed

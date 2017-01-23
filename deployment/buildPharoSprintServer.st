@@ -1,7 +1,7 @@
 Metacello new
     baseline: #GTSprint;
     repository: 'github://JurajKubelka/GT-Collaborate/repository';
-    load.
+    load: 'server'.
 
 Smalltalk saveAs: 'pharoSprintServer'.
 Smalltalk snapshot: true andQuit: true.

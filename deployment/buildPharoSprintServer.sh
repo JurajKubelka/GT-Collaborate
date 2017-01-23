@@ -2,7 +2,8 @@
 
 function help {
     echo "USAGE: $0 <arguments>"
-    echo "       -d  download Pharo image and changes, and Pharo VM"
+    echo "       -4  download Pharo 4.0 (image, changes, VM)"
+    echo "       -6  download Pharo 6.0 (image, changes, VM)"
     echo "       -c  configure Pharo Sprint Server"
     echo "       -r  run Pharo Sprint Server"
     echo ""
@@ -19,14 +20,16 @@ function ensureWorkingDirectory {
 
 function downloadPharoImageAndVM {
     # Downloads Pharo.image Pharo.changes, pharo, pharo-ui, and pharo-vm directory
+    # $1 defines Pharo version (40, 50, 60)
     zeroScript="$(which curl wget | head -1)"
+    PVERSION=${1:-60}
 
     case "$zeroScript" in
 	*curl*)
-	    curl get.pharo.org/60+vm | bash
+	    curl get.pharo.org/$PVERSION+vm | bash
 	    ;;
 	*wget*)
-	    wget -O- get.pharo.org/60+vm | bash
+	    wget -O- get.pharo.org/$PVERSION+vm | bash
 	    ;;
 	*)
 	    echo default
@@ -51,7 +54,7 @@ function run {
 }
 
 
-args=$(getopt dcrh $*)
+args=$(getopt 456crh $*)
 
 if [ $? != 0 ] ; then
     help
@@ -75,11 +78,25 @@ fi
 
 ensureWorkingDirectory
 
-if [[ "$args" == *"-d"* ]] ; then
+case "$args" in
+    *"-4"*)
+	PVERSION=40
+	;;
+    *"-5"*)
+	PVERSION=50
+	;;
+    *"-6"*)
+	PVERSION=60
+	;;
+    *)
+	;;
+esac
+
+if [[ "$PVERSION" != "" ]] ; then
     echo
-    echo "### Download Pharo Image and VM ###"
+    echo "### Download Pharo Image and VM of version $PVERSION ###"
     echo
-    downloadPharoImageAndVM
+    downloadPharoImageAndVM "$PVERSION"
 fi
 
 if [[ "$args" == *"-c"* ]] ; then

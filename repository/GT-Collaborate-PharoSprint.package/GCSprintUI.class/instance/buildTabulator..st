@@ -4,6 +4,7 @@ buildTabulator: aGLMTabulator
 	aGLMTabulator transmit to: #proposed; andShow: [ :a | 
 		a list 
 			title: 'Proposed';
+			with: [ :aList | self addFogBugzActions: aList ];
 			display: [ :aSprint | | col | 
 				col := aSprint proposed.
 				col ifEmpty: [ col addFirst: 'you are done :-)' ].
@@ -16,6 +17,7 @@ buildTabulator: aGLMTabulator
 				true ].
 		a list 
 			title: 'All';
+			with: [ :aList | self addFogBugzActions: aList ];
 			display: [ :aSprint | | col | 
 				col := aSprint undefinedAndOpen.
 				col ifEmpty: [ col addFirst: 'nothing to do :-)' ].

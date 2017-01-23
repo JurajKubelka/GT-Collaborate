@@ -1,0 +1,15 @@
+{
+	"category" : "GT-Collaborate-PharoSprintServer",
+	"classinstvars" : [
+		"uniqueInstance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"node",
+		"trantorObject" ],
+	"name" : "GCSprintCommandsServer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

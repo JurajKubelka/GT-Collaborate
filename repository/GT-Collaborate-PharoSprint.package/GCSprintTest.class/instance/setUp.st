@@ -1,4 +1,9 @@
-running
+initialization
 setUp
 	super setUp.
-	nodes := GCSprintServerClients new.
+	sprint := GCSprint new.
+	sprint
+		developer: GCSprintUser alice;
+		fogbugz: GCFogBugz threeCases;
+		commands: GCSprintCommands new.
+	

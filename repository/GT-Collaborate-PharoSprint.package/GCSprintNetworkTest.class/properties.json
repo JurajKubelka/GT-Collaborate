@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "",
 	"instvars" : [
-		"sprint" ],
-	"name" : "GCSprintTest",
+		"nodes" ],
+	"name" : "GCSprintNetworkTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

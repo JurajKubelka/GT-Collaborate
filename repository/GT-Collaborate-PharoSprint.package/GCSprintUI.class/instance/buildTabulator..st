@@ -1,8 +1,8 @@
 build ui
 buildTabulator: aGLMTabulator
 	aGLMTabulator column: #proposed; column: #taken; column: #done.
-	aGLMTabulator transmit to: #proposed; andShow: [ :a | 
-		a fastList 
+	aGLMTabulator transmit to: #proposed; andShow: [ :composite | 
+		composite fastList 
 			title: 'Proposed';
 			with: [ :aList | self addFogBugzActions: aList ];
 			display: [ :aSprint | | col | 
@@ -15,7 +15,7 @@ buildTabulator: aGLMTabulator
 				draggedObject renounce: aSprint developer.
 				aGLMTabulator update.
 				true ].
-		a fastList 
+		composite fastList 
 			title: 'All';
 			with: [ :aList | self addFogBugzActions: aList ];
 			display: [ :aSprint | | col | 
@@ -35,11 +35,11 @@ buildTabulator: aGLMTabulator
 				aGLMTabulator update.
 				true ]
 			].
-	aGLMTabulator transmit to: #taken; andShow: [:a |  
-		a fastList
+	aGLMTabulator transmit to: #taken; andShow: [ :composite |  
+		composite fastList
 			title: 'Taken'; 
 			display: [ :aSprint | | col | 
-				col := aSprint taken.
+				col := aSprint taken sorted: [ :a :b | (aSprint isMyState: a) ].
 				col ifEmpty: [ col addFirst: 'be first :-)' ].
 				col ];
 			gcConfigureList: self;
@@ -49,11 +49,11 @@ buildTabulator: aGLMTabulator
 				aGLMTabulator update.
 				true ]
 			].
-	aGLMTabulator transmit to: #done; andShow: [:a |  
-		a fastList
+	aGLMTabulator transmit to: #done; andShow: [ :composite |  
+		composite fastList
 			title: 'Done'; 
 			display: [ :aSprint | | col | 
-				col := aSprint done.
+				col := aSprint done sorted: [ :a :b | (aSprint isMyState: a) ].
 				col ifEmpty: [ col addFirst: 'be first :-)' ].
 				col ];
 			gcConfigureList: self;

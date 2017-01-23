@@ -1,4 +1,4 @@
-converting
+*GT-Collaborate-PharoSprint
 asGCSprintState
 	| developer newState |
 	developer := GCSprintUser named: self developerId.

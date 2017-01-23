@@ -19,10 +19,13 @@ baseline: spec
 				spec
 					className: #ConfigurationOfWebBrowser;
 					versionString: #'stable';
-					repository: 'http://smalltalkhub.com/mc/TorstenBergmann/WebBrowser/main/' ].
-		spec 
+					repository: 'http://smalltalkhub.com/mc/TorstenBergmann/WebBrowser/main/' ];
 			package: #'GT-Collaborate-FogBugz' with: [
 				spec requires: #( 'CIFogBugzAPI' ). ];
+			package: #'GT-Collaborate-PharoSprintServer' with: [
+				spec requires: #('Trantor'). ];
 			package: #'GT-Collaborate-PharoSprint' with: [
-				spec requires: #('Trantor' #'GT-Collaborate-FogBugz'). ].
-		spec group: 'default' with: #( #'GT-Collaborate-PharoSprint' ). ].
+				spec requires: #('Trantor' #'GT-Collaborate-FogBugz' #'GT-Collaborate-PharoSprintServer'). ];
+			group: 'default' with: #( #'GT-Collaborate-PharoSprint' );
+			group: 'server' with: #( #'GT-Collaborate-PharoSprintServer' ). 
+	].

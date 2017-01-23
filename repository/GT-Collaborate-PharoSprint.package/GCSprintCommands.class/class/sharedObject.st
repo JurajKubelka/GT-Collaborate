@@ -1,3 +1,0 @@
-configuration
-sharedObject
-	^ TrantorAWOROrderedCollection new

@@ -1,3 +1,3 @@
 connection open/close
 connectToPublicServer
-	self connectToHost: self class publicServerHostname port: self class publicServerPort
+	self connectToHost: GCSprintCommandSettings publicServerHostname port: GCSprintCommandSettings publicServerPort

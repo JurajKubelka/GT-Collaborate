@@ -9,7 +9,7 @@ buildTabulator: aGLMTabulator
 				col := aSprint proposed.
 				col ifEmpty: [ col addFirst: 'you are done :-)' ].
 				col ];
-			gcConfigureList: self;
+			with: [ :list | self configureList: list ];
 			dropOnItem: [ :draggedObject :targetItem :list | | aSprint |
 				aSprint := list entity.
 				draggedObject renounce: aSprint developer.
@@ -22,7 +22,7 @@ buildTabulator: aGLMTabulator
 				col := aSprint undefinedAndOpen.
 				col ifEmpty: [ col addFirst: 'nothing to do :-)' ].
 				col ];
-			gcConfigureList: self;
+			with: [ :list | self configureList: list ];
 			selectionAct: [ :list :sprint | 
 					list selection ifNotNil: [ :aCase | | aSprint |
 						aSprint := list entity.
@@ -35,20 +35,7 @@ buildTabulator: aGLMTabulator
 				aGLMTabulator update.
 				true ]
 			].
-	aGLMTabulator transmit to: #taken; andShow: [ :composite |  
-		composite fastList
-			title: 'Taken'; 
-			display: [ :aSprint | | col | 
-				col := aSprint taken sorted: [ :a :b | (aSprint isMyState: a) ].
-				col ifEmpty: [ col addFirst: 'be first :-)' ].
-				col ];
-			gcConfigureList: self;
-			dropOnItem: [ :draggedObject :targetItem :list | | aSprint |
-				aSprint := list entity.
-				draggedObject take: aSprint developer.
-				aGLMTabulator update.
-				true ]
-			].
+	self takenList: aGLMTabulator.
 	aGLMTabulator transmit to: #done; andShow: [ :composite |  
 		composite fastList
 			title: 'Done'; 
@@ -56,7 +43,7 @@ buildTabulator: aGLMTabulator
 				col := aSprint done sorted: [ :a :b | (aSprint isMyState: a) ].
 				col ifEmpty: [ col addFirst: 'be first :-)' ].
 				col ];
-			gcConfigureList: self;
+			with: [ :list | self configureList: list ];
 			dropOnItem: [ :draggedObject :targetItem :list | | aSprint |
 				aSprint := list entity.
 				draggedObject finish: aSprint developer.

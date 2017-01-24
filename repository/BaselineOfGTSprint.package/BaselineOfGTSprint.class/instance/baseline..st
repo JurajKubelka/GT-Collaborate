@@ -34,6 +34,7 @@ baseline: spec
 			package: #'GT-Collaborate-PharoSprint' with: [
 				spec requires: #('Trantor' #'GT-Collaborate-FogBugz' #'GT-Collaborate-PharoSprintServer'). ];
 			group: 'default' with: #( #'GT-Collaborate-PharoSprint' );
-			group: 'server' with: #( #'GT-Collaborate-PharoSprintServer' );
-			group: 'webhooks' with: #( #'GT-Collaborate-FogBugzWebhooks' ). 
+			group: 'sprint' with: #( #'GT-Collaborate-PharoSprintServer' );
+			group: 'webhooks' with: #( #'GT-Collaborate-FogBugzWebhooks' );
+			group: 'all' with: #(default sprint webhooks).
 	].

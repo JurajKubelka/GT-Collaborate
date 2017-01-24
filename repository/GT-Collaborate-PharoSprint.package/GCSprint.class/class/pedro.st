@@ -1,4 +1,4 @@
-examples
+examples - local servers
 pedro
 	<script: 'self pedro inspect'>
 	<gtExample>

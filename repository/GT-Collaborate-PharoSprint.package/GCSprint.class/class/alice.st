@@ -1,4 +1,4 @@
-examples
+examples - local servers
 alice
 	<script: 'self alice inspect'>
 	<gtExample>

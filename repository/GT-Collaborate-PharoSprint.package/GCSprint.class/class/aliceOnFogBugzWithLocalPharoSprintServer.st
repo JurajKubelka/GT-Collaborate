@@ -1,4 +1,4 @@
-examples
+examples - public fogbugz and local sprint server
 aliceOnFogBugzWithLocalPharoSprintServer
 	<script: 'self aliceOnFogBugzWithLocalPharoSprintServer inspect'>
 	<gtExample>

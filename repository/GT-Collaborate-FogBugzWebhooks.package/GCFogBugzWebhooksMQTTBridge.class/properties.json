@@ -1,0 +1,14 @@
+{
+	"category" : "GT-Collaborate-FogBugzWebhooks-Server",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JurajKubelka 1/24/2017 15:00",
+	"instvars" : [
+		 ],
+	"name" : "GCFogBugzWebhooksMQTTBridge",
+	"pools" : [
+		 ],
+	"super" : "ZnDispatcherDelegate",
+	"type" : "normal" }

@@ -4,6 +4,6 @@ pedroOnFogBugzWithLocalPharoSprintServer
 	<gtExample>
 	^ self new 
 		developer: GCSprintUser pedro;
-		fogbugz: GCFogBugz default;
+		fogbugz: GCFogBugz new;
 		useLocalCommandServer;
 		yourself

@@ -1,4 +1,4 @@
-build ui
+private - build ui
 addFogBugzActions: aList
 	^ aList
 		addAction: (GLMGenericAction new 

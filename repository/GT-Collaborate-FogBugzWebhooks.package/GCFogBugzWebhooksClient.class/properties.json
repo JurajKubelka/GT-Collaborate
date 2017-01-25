@@ -1,0 +1,16 @@
+{
+	"category" : "GT-Collaborate-FogBugzWebhooks-Client",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JurajKubelka 1/25/2017 13:29",
+	"instvars" : [
+		"fogbugz",
+		"client",
+		"finish" ],
+	"name" : "GCFogBugzWebhooksClient",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

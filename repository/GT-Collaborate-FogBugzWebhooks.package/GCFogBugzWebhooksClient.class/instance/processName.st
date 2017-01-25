@@ -1,0 +1,3 @@
+accessing
+processName
+	^ self className 

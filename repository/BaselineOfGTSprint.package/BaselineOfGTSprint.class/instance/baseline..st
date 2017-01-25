@@ -28,13 +28,14 @@ baseline: spec
 			package: #'GT-Collaborate-FogBugzWebhooks' with: [
 				spec requires: #( 'MQTT' ). ];
 			package: #'GT-Collaborate-FogBugz' with: [
-				spec requires: #( 'CIFogBugzAPI' ). ];
+				spec requires: #( 'CIFogBugzAPI' 'GT-Collaborate-FogBugzWebhooks' ). ];
 			package: #'GT-Collaborate-PharoSprintServer' with: [
 				spec requires: #('Trantor'). ];
 			package: #'GT-Collaborate-PharoSprint' with: [
 				spec requires: #('Trantor' #'GT-Collaborate-FogBugz' #'GT-Collaborate-PharoSprintServer'). ];
-			group: 'default' with: #( #'GT-Collaborate-PharoSprint' );
+			group: 'client' with: #( #'GT-Collaborate-PharoSprint' );
 			group: 'sprint' with: #( #'GT-Collaborate-PharoSprintServer' );
 			group: 'webhooks' with: #( #'GT-Collaborate-FogBugzWebhooks' );
+			group: 'default' with: #(client);
 			group: 'all' with: #(default sprint webhooks).
 	].

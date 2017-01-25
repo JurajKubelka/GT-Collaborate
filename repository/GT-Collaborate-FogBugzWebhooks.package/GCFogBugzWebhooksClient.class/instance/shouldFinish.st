@@ -1,0 +1,3 @@
+testing
+shouldFinish
+	^ finish

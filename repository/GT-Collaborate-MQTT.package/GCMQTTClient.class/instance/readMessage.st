@@ -1,0 +1,3 @@
+public
+readMessage
+	"returns bytes"

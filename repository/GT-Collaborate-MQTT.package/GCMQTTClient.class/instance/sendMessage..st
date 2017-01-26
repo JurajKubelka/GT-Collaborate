@@ -1,0 +1,3 @@
+public
+sendMessage: bytes
+	^ false

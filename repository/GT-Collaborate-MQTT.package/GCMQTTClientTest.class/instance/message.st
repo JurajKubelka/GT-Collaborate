@@ -1,3 +1,3 @@
 running
 message
-	^ 'abc' asByteArray
+	^ 'abc' asByteArray 

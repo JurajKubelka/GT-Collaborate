@@ -1,6 +1,6 @@
 running
 setUp
-	super setUp.
+	super setUp. 
 	channelId := UUID new asString.
 	client1 := GCMQTTClient new.
 	client2 := GCMQTTClient new.

@@ -4,6 +4,13 @@ baseline: spec
 
 	spec for: #'common' do: [
 		spec 
+			project: 'Glamour' with: [
+				"Once Glamour-FastTable-JurajKubelka.69 is integrated in Pharo 6.0,
+				we can remove this project."
+				spec
+					className: #ConfigurationOfGlamourCore;
+					versionString: #'development';
+					repository: 'http://smalltalkhub.com/mc/Moose/Glamour/main/' ];
 			project: 'CIFogBugzAPI' with: [
 				spec
 					className: #ConfigurationOfCIFogBugzAPI;
@@ -32,7 +39,7 @@ baseline: spec
 			package: #'GT-Collaborate-PharoSprintServer' with: [
 				spec requires: #('Trantor'). ];
 			package: #'GT-Collaborate-PharoSprint' with: [
-				spec requires: #('Trantor' #'GT-Collaborate-FogBugz' #'GT-Collaborate-PharoSprintServer'). ];
+				spec requires: #( #'Glamour' #'Trantor' #'GT-Collaborate-FogBugz' #'GT-Collaborate-PharoSprintServer'). ];
 			group: 'client' with: #( #'GT-Collaborate-PharoSprint' );
 			group: 'sprint' with: #( #'GT-Collaborate-PharoSprintServer' );
 			group: 'webhooks' with: #( #'GT-Collaborate-FogBugzWebhooks' );

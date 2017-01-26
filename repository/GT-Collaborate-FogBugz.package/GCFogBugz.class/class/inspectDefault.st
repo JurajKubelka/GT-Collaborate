@@ -1,4 +1,4 @@
 cleanup
 inspectDefault
 	<script>
-	^ self uniqueInstance inspect
+	^ self default inspect

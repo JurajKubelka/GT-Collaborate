@@ -1,0 +1,3 @@
+running
+message
+	^ 'abc' asByteArray

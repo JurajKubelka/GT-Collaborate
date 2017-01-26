@@ -1,0 +1,14 @@
+{
+	"category" : "GT-Collaborate-MQTT-Network",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GCMQTTClient",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

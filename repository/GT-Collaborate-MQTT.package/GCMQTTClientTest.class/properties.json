@@ -1,0 +1,16 @@
+{
+	"category" : "GT-Collaborate-MQTT-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"client1",
+		"client2",
+		"channelId" ],
+	"name" : "GCMQTTClientTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

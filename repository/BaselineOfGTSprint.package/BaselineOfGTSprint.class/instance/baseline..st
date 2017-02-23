@@ -4,22 +4,21 @@ baseline: spec
 
 	spec for: #'common' do: [
 		spec 
-			project: 'MQTTChat' with: [
+			baseline: 'MQTTChat' with: [
 				spec
-					className: #ConfigurationOfMQTTChat;
+					repository: 'github://JurajKubelka/MQTTChat/repository';
+					loads: 'default' ];
+			project: 'MQTT' with: [
+				spec
+					className: #ConfigurationOfMQTT;
 					versionString: #'stable';
-					repository: 'http://smalltalkhub.com/mc/JurajKubelka/MQTTChat/main/' ];
+					repository: 'http://smalltalkhub.com/mc/SvenVanCaekenberghe/MQTT/main/' ];
 			project: 'CIFogBugzAPI' with: [
 				spec
 					className: #ConfigurationOfCIFogBugzAPI;
 					versionString: #'development';
 					repository: 'http://smalltalkhub.com/mc/JurajKubelka/GTCollaborate/main/';
 					repository: 'http://smalltalkhub.com/mc/Pharo/ci/main/' ];
-			project: 'MQTT' with: [
-				spec
-					className: #ConfigurationOfMQTT;
-					versionString: #'development';
-					repository: 'http://smalltalkhub.com/mc/SvenVanCaekenberghe/MQTT/main/' ];
 			project: 'Trantor' with: [
 				spec
 					className: #ConfigurationOfTrantor;
@@ -38,7 +37,7 @@ baseline: spec
 				spec requires: #('Trantor'). ];
 			package: #'GT-Collaborate-PharoSprint' with: [
 				spec requires: #( #'MQTTChat' #'Trantor' #'GT-Collaborate-FogBugz' #'GT-Collaborate-PharoSprintServer'). ];
-			group: 'client' with: #( #'GT-Collaborate-PharoSprint' );
+			group: 'client' with: #( #'GT-Collaborate-PharoSprint' #'WebBrowser' );
 			group: 'sprint' with: #( #'GT-Collaborate-PharoSprintServer' );
 			group: 'webhooks' with: #( #'GT-Collaborate-FogBugzWebhooks' );
 			group: 'default' with: #(client);

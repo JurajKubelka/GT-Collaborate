@@ -1,14 +1,13 @@
 {
+	"commentStamp" : "JurajKubelka 1/9/2017 18:55",
+	"super" : "Object",
 	"category" : "GT-Collaborate-FogBugz-Examples",
 	"classinstvars" : [
-		"uniqueInstance" ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "JurajKubelka 1/9/2017 18:55",
-	"instvars" : [
-		 ],
+		"uniqueInstance"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
 	"name" : "GCFogBugzExamples",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

@@ -1,14 +1,11 @@
 {
-	"category" : "GT-Collaborate-PharoSprint-State",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "GCSprintTakenCaseState",
-	"pools" : [
-		 ],
 	"super" : "GCSprintCaseState",
-	"type" : "normal" }
+	"category" : "GT-Collaborate-PharoSprint-State",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "GCSprintTakenCaseState",
+	"type" : "normal"
+}

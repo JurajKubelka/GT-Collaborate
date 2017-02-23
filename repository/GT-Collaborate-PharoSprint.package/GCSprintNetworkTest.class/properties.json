@@ -1,14 +1,13 @@
 {
-	"category" : "GT-Collaborate-PharoSprint-Tests",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"nodes" ],
-	"name" : "GCSprintNetworkTest",
-	"pools" : [
-		 ],
 	"super" : "TestCase",
-	"type" : "normal" }
+	"category" : "GT-Collaborate-PharoSprint-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"nodes"
+	],
+	"name" : "GCSprintNetworkTest",
+	"type" : "normal"
+}

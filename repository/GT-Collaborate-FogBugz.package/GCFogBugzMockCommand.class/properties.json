@@ -1,14 +1,13 @@
 {
-	"category" : "GT-Collaborate-FogBugz-Tests",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "JurajKubelka 1/10/2017 12:16",
-	"instvars" : [
-		"block" ],
-	"name" : "GCFogBugzMockCommand",
-	"pools" : [
-		 ],
 	"super" : "Object",
-	"type" : "normal" }
+	"category" : "GT-Collaborate-FogBugz-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"block"
+	],
+	"name" : "GCFogBugzMockCommand",
+	"type" : "normal"
+}

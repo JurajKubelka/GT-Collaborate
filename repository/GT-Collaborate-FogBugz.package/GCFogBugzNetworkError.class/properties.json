@@ -1,14 +1,13 @@
 {
-	"category" : "GT-Collaborate-FogBugz-Announcements",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "JurajKubelka 1/9/2017 21:30",
-	"instvars" : [
-		"exception" ],
-	"name" : "GCFogBugzNetworkError",
-	"pools" : [
-		 ],
 	"super" : "GCFogBugzNetworkAnnouncement",
-	"type" : "normal" }
+	"category" : "GT-Collaborate-FogBugz-Announcements",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"exception"
+	],
+	"name" : "GCFogBugzNetworkError",
+	"type" : "normal"
+}

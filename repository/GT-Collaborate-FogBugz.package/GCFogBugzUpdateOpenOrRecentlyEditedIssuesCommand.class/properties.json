@@ -1,14 +1,11 @@
 {
-	"category" : "GT-Collaborate-FogBugz-Network",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "JurajKubelka 1/9/2017 21:16",
-	"instvars" : [
-		 ],
-	"name" : "GCFogBugzUpdateOpenOrRecentlyEditedIssuesCommand",
-	"pools" : [
-		 ],
 	"super" : "GCFogBugzUpdateOpenIssuesCommand",
-	"type" : "normal" }
+	"category" : "GT-Collaborate-FogBugz-Network",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "GCFogBugzUpdateOpenOrRecentlyEditedIssuesCommand",
+	"type" : "normal"
+}

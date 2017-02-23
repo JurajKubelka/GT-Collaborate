@@ -1,14 +1,13 @@
 {
-	"category" : "GT-Collaborate-FogBugz-Tests",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "<historical>",
-	"instvars" : [
-		"case" ],
-	"name" : "GCFogBugzCaseTest",
-	"pools" : [
-		 ],
 	"super" : "TestCase",
-	"type" : "normal" }
+	"category" : "GT-Collaborate-FogBugz-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"case"
+	],
+	"name" : "GCFogBugzCaseTest",
+	"type" : "normal"
+}

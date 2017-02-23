@@ -1,15 +1,14 @@
 {
-	"category" : "GT-Collaborate-FogBugz-Announcements",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "JurajKubelka 1/19/2017 15:57",
+	"super" : "GCFogBugzAnnouncement",
+	"category" : "GT-Collaborate-FogBugz-Announcements",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"updatedTopics",
-		"newTopics" ],
+		"newTopics"
+	],
 	"name" : "GCFogBugzCasesUpdated",
-	"pools" : [
-		 ],
-	"super" : "GCFogBugzAnnouncement",
-	"type" : "normal" }
+	"type" : "normal"
+}

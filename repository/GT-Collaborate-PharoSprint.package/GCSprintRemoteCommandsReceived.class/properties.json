@@ -1,14 +1,13 @@
 {
-	"category" : "GT-Collaborate-PharoSprint-Announcement",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"commands" ],
-	"name" : "GCSprintRemoteCommandsReceived",
-	"pools" : [
-		 ],
 	"super" : "GCFogBugzAnnouncement",
-	"type" : "normal" }
+	"category" : "GT-Collaborate-PharoSprint-Announcement",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"commands"
+	],
+	"name" : "GCSprintRemoteCommandsReceived",
+	"type" : "normal"
+}

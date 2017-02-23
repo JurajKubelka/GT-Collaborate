@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "GCSprintAbstractPresentation",
+	"category" : "GT-Collaborate-PharoSprint-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "GCCaseListPresentation",
+	"type" : "normal"
+}

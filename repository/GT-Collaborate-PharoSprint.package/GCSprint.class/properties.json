@@ -1,16 +1,16 @@
 {
-	"category" : "GT-Collaborate-PharoSprint-Model",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "GT-Collaborate-PharoSprint-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"fogbugz",
 		"developer",
-		"commands" ],
+		"commands",
+		"chat"
+	],
 	"name" : "GCSprint",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

@@ -1,16 +1,17 @@
 {
+	"commentStamp" : "JurajKubelka 1/9/2017 20:50",
+	"super" : "Object",
 	"category" : "GT-Collaborate-FogBugz-Settings",
 	"classinstvars" : [
-		"uniqueInstance" ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "JurajKubelka 1/9/2017 20:50",
+		"uniqueInstance"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"login",
 		"password",
-		"token" ],
+		"token"
+	],
 	"name" : "GCFogBugzSettings",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

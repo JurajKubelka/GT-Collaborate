@@ -1,4 +1,4 @@
-as yet unclassified
+private
 onlyLastStatesPerCase
 	| dictionary |
 	dictionary := Dictionary new.

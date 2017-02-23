@@ -1,14 +1,13 @@
 {
-	"category" : "GT-Collaborate-PharoSprint-Tests",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"developer" ],
-	"name" : "GCSprintFogBugzCaseTest",
-	"pools" : [
-		 ],
 	"super" : "GCFogBugzCaseTest",
-	"type" : "normal" }
+	"category" : "GT-Collaborate-PharoSprint-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"developer"
+	],
+	"name" : "GCSprintFogBugzCaseTest",
+	"type" : "normal"
+}

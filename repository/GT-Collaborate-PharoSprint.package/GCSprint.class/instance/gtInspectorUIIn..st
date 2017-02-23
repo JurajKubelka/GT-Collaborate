@@ -2,6 +2,10 @@ gt-inspector-extension
 gtInspectorUIIn: composite
 	<gtInspectorPresentationOrder: 0>
 	^ composite
-		with: [ :aComposite |
-			(GCSprintUI new buildUIFor: aComposite tabulator sprint: self)
-				title: 'UI' ]
+		custom: (GCSprintPresentation new
+				title: [ 'UI' ];
+				yourself);
+		act: [ :chat | chat open ] 
+			iconName: #glamorousOpen 
+			entitled: 'Open in Separate Window';
+		yourself

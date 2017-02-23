@@ -1,14 +1,11 @@
 {
-	"category" : "GT-Collaborate-FogBugz-Network",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "JurajKubelka 1/9/2017 21:12",
-	"instvars" : [
-		 ],
-	"name" : "GCFogBugzLoginCommand",
-	"pools" : [
-		 ],
 	"super" : "GCFogBugzCommand",
-	"type" : "normal" }
+	"category" : "GT-Collaborate-FogBugz-Network",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "GCFogBugzLoginCommand",
+	"type" : "normal"
+}

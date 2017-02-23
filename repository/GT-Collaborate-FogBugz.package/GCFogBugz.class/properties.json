@@ -1,17 +1,18 @@
 {
+	"commentStamp" : "JurajKubelka 1/9/2017 21:00",
+	"super" : "Object",
 	"category" : "GT-Collaborate-FogBugz-Model",
 	"classinstvars" : [
-		"uniqueInstance" ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "JurajKubelka 1/9/2017 21:00",
+		"uniqueInstance"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"tracker",
 		"cases",
 		"queue",
-		"hooks" ],
+		"hooks"
+	],
 	"name" : "GCFogBugz",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

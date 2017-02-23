@@ -1,16 +1,15 @@
 {
-	"category" : "GT-Collaborate-FogBugz-Model",
-	"classinstvars" : [
-		 ],
 	"classtraitcomposition" : "GCSubscriptionTrait classTrait",
-	"classvars" : [
-		 ],
-	"commentStamp" : "JurajKubelka 1/10/2017 12:08",
+	"classvars" : [ ],
 	"instvars" : [
-		"announcer" ],
+		"announcer"
+	],
 	"name" : "GCAnnouncer",
-	"pools" : [
-		 ],
+	"commentStamp" : "JurajKubelka 1/10/2017 12:08",
 	"super" : "Object",
 	"traitcomposition" : "GCSubscriptionTrait",
-	"type" : "normal" }
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "GT-Collaborate-FogBugz-Model"
+}

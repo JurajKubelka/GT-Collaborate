@@ -1,11 +1,9 @@
-private - build ui
-proposedList: composite
-	^ composite fastList 
-			title: 'Proposed';
+building
+composePresentationIn: browser
+	^ browser fastList 
 			with: [ :aList | self addFogBugzActions: aList ];
 			display: [ :aSprint | | col | 
 				col := aSprint proposed.
-				col ifEmpty: [ col addFirst: 'choose from all :-)' ].
 				col ];
 			format: [ :aCase :aSprint | self proposedRowFor: aCase sprint: aSprint ];
 			rowHeight: [ :presentation | presentation class defaultRowHeight * 2 ];

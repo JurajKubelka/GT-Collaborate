@@ -1,15 +1,14 @@
 {
-	"category" : "GT-Collaborate-PharoSprint-Commands",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "GCAnnouncer",
+	"category" : "GT-Collaborate-PharoSprint-Commands",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"trantorNode",
-		"commands" ],
+		"commands"
+	],
 	"name" : "GCSprintCommands",
-	"pools" : [
-		 ],
-	"super" : "GCAnnouncer",
-	"type" : "normal" }
+	"type" : "normal"
+}

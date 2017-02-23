@@ -1,15 +1,14 @@
 {
-	"category" : "GT-Collaborate-PharoSprint-Commands",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "GT-Collaborate-PharoSprint-Commands",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"fogbugz",
-		"commands" ],
+		"commands"
+	],
 	"name" : "GCSprintUpdateRemoteCommands",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

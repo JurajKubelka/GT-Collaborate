@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "GT-Collaborate-PharoSprint-Commands",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"mqttClient",
+		"commands"
+	],
+	"name" : "GCSprintMQTTClient",
+	"type" : "normal"
+}

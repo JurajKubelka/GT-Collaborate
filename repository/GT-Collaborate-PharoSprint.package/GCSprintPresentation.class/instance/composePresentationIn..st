@@ -16,20 +16,11 @@ composePresentationIn: browser
 				composite custom: (GCCaseDoneListPresentation new) ] ];
 		with: [ :tabulator |
 			tabulator transmit from: #proposedAndAll; to: #details; andShow: [ :composite |
-				composite 
-					custom: GCFogBugzCasePresentation new;
-					custom: (GLMDynamicPresentation new
-						title: [ :case | 'Room #', case id asString ];
-						display: [ :case | MQTTChatRoomPresentation new 
-							startOn: case room;
-							title: nil ];
-						yourself ) ] ];
+				self buildCaseIn: composite ] ];
 		with: [ :tabulator |
 			tabulator transmit from: #taken; to: #details; andShow: [ :composite |
-				composite custom: (GCFogBugzCasePresentation new
-					yourself) ] ];
+				self buildCaseIn: composite ] ];
 		with: [ :tabulator |
 			tabulator transmit from: #done; to: #details; andShow: [ :composite |
-				composite custom: (GCFogBugzCasePresentation new
-					yourself) ] ];
+				self buildCaseIn: composite ] ];
 		yourself

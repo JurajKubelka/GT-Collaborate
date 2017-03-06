@@ -1,1 +1,0 @@
-I represent a null design pattern for GCFogBugzCase class.

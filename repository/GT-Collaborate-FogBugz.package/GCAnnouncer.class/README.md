@@ -1,1 +1,0 @@
-I provide some convenient Announcer API 

@@ -1,3 +1,0 @@
-testing
-isLoggedIn
-	^ tracker isLoggedIn

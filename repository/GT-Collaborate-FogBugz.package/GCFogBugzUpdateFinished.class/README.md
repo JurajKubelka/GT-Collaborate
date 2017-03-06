@@ -1,1 +1,0 @@
-I inform that GCFogBugzCases's topics were updated.

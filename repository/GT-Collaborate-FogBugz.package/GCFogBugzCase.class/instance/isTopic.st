@@ -1,3 +1,0 @@
-testing
-isTopic
-	^ true

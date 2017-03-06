@@ -1,3 +1,0 @@
-accessing
-credentialsLogin
-	^ GCFogBugzLoginCommand credentialsLogin

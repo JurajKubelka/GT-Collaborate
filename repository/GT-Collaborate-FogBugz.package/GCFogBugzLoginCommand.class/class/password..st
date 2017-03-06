@@ -1,3 +1,0 @@
-accessing
-password: passwordString
-	GCFogBugzSettings uniqueInstance password: passwordString

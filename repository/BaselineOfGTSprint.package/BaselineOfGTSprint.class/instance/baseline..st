@@ -13,12 +13,10 @@ baseline: spec
 					className: #ConfigurationOfMQTT;
 					versionString: #'stable';
 					repository: 'http://smalltalkhub.com/mc/SvenVanCaekenberghe/MQTT/main/' ];
-			project: 'CIFogBugzAPI' with: [
+			baseline: 'FogBugz' with: [
 				spec
-					className: #ConfigurationOfCIFogBugzAPI;
-					versionString: #'development';
-					repository: 'http://smalltalkhub.com/mc/JurajKubelka/GTCollaborate/main/';
-					repository: 'http://smalltalkhub.com/mc/Pharo/ci/main/' ];
+					repository: 'github://JurajKubelka/FogBugz/src';
+					loads: 'default' ];
 			project: 'Trantor' with: [
 				spec
 					className: #ConfigurationOfTrantor;

@@ -1,3 +1,0 @@
-testing
-hasCommands
-	^ queue notEmpty

@@ -1,1 +1,0 @@
-I expose Announcer API.

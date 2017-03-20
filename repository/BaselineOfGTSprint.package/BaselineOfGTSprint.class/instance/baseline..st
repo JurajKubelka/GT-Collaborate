@@ -29,12 +29,10 @@ baseline: spec
 					repository: 'http://smalltalkhub.com/mc/TorstenBergmann/WebBrowser/main/' ];
 			package: #'GT-Collaborate-FogBugzWebhooks' with: [
 				spec requires: #( 'MQTT' ). ];
-			package: #'GT-Collaborate-FogBugz' with: [
-				spec requires: #( 'CIFogBugzAPI' 'GT-Collaborate-FogBugzWebhooks' ). ];
 			package: #'GT-Collaborate-PharoSprintServer' with: [
 				spec requires: #('Trantor'). ];
 			package: #'GT-Collaborate-PharoSprint' with: [
-				spec requires: #( #'MQTTChat' #'Trantor' #'GT-Collaborate-FogBugz' #'GT-Collaborate-PharoSprintServer'). ];
+				spec requires: #( #'MQTTChat' #'Trantor' #'FogBugz' #'GT-Collaborate-FogBugzWebhooks' #'GT-Collaborate-PharoSprintServer'). ];
 			group: 'client' with: #( #'GT-Collaborate-PharoSprint' #'WebBrowser' );
 			group: 'sprint' with: #( #'GT-Collaborate-PharoSprintServer' );
 			group: 'webhooks' with: #( #'GT-Collaborate-FogBugzWebhooks' );

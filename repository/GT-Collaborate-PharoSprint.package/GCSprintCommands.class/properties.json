@@ -1,11 +1,12 @@
 {
 	"commentStamp" : "",
-	"super" : "GCAnnouncer",
+	"super" : "Object",
 	"category" : "GT-Collaborate-PharoSprint-Commands",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
+		"announcer",
 		"trantorNode",
 		"commands"
 	],

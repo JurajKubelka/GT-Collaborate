@@ -2,7 +2,7 @@
 state: aGCSprintCaseState 
 	| result |
 	result := self rawState: aGCSprintCaseState.
-	self announce: (GCSprintLocalCaseStateChanged new 
+	self announcer announce: (GCSprintLocalCaseStateChanged new 
 		case: self;
 		state: result;
 		yourself).

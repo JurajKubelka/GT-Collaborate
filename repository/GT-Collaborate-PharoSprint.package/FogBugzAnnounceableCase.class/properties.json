@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "JurajKubelka 1/10/2017 11:20",
+	"super" : "Object",
+	"category" : "GT-Collaborate-PharoSprint",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"announcer",
+		"case",
+		"info"
+	],
+	"name" : "FogBugzAnnounceableCase",
+	"type" : "normal"
+}

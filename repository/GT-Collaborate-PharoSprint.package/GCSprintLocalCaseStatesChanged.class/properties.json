@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "GCFogBugzAnnouncement",
+	"super" : "FogBugzAnnouncement",
 	"category" : "GT-Collaborate-PharoSprint-Announcement",
 	"classinstvars" : [ ],
 	"pools" : [ ],

@@ -4,6 +4,6 @@ pedro
 	<gtExample>
 	^ self new 
 		developer: GCSprintUser pedro;
-		fogbugz: GCFogBugz threeCases;
+		fogbugz: FogBugzClient threeCases;
 		useLocalCommandServer;
 		yourself

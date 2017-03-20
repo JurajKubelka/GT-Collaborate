@@ -2,7 +2,7 @@
 testInitializeTakenStateAnnouncement
 	| results |
 	results := OrderedCollection new.
-	case := GCFogBugzCase case18846.
+	case := FogBugzAnnounceableCase case18846.
 	case announcer when: GCSprintLocalCaseStateChanged do: [ :ann | results addLast: ann ].
 	case take: developer.
 	self assert: results size equals: 1.

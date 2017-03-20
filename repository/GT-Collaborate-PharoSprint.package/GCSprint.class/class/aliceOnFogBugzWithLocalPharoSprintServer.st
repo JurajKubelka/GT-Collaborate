@@ -4,6 +4,6 @@ aliceOnFogBugzWithLocalPharoSprintServer
 	<gtExample>
 	^ self new 
 		developer: GCSprintUser alice;
-		fogbugz: GCFogBugz new;
+		fogbugz: FogBugzClient new;
 		useLocalCommandServer;
 		yourself

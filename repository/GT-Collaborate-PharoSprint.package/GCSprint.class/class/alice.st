@@ -4,6 +4,6 @@ alice
 	<gtExample>
 	^ self new 
 		developer: GCSprintUser alice;
-		fogbugz: GCFogBugz threeCases;
+		fogbugz: FogBugzClient threeCases;
 		useLocalCommandServer;
 		yourself

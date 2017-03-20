@@ -4,6 +4,6 @@ pedroOnFogBugzAndPublicServer
 	<gtExample>
 	^ self new 
 		developer: GCSprintUser pedro;
-		fogbugz: GCFogBugz new;
+		fogbugz: FogBugzClient new;
 		usePublicCommandServer;
 		yourself

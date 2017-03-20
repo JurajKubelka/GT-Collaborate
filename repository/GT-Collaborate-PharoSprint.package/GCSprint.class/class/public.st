@@ -4,6 +4,6 @@ public
 	<script: 'self public inspect'>
 	^ self new 
 		developer: GCSprintUser default;
-		fogbugz: GCFogBugz new;
+		fogbugz: FogBugzClient new;
 		usePublicCommandServer;
 		yourself

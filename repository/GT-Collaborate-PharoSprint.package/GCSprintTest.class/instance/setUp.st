@@ -4,6 +4,6 @@ setUp
 	sprint := GCSprint new.
 	sprint
 		developer: GCSprintUser alice;
-		fogbugz: GCFogBugz threeCases;
+		fogbugz: FogBugzClient threeCases;
 		commands: GCSprintCommands new.
 	

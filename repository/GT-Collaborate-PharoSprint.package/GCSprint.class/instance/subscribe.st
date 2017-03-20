@@ -5,7 +5,7 @@ subscribe
 		when: GCSprintLocalCaseStateChanged send: #localStateChanged: to: self)
 			subscriber: self.
 	(self fogbugz announcer
-		when: GCFogBugzCasesUpdated send: #casesUpdated: to: self)
+		when: FogBugzCasesUpdatedAnnouncement send: #casesUpdated: to: self)
 			subscriber: self.
 	(self commands announcer
 		when: GCSprintRemoteCommandsReceived send: #remoteStateChanged: to: self)

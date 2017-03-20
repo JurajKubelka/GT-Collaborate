@@ -2,6 +2,6 @@ initialization
 addThreeCases: aGCSprint
 	aGCSprint fogbugz cases
 		updateCases: { 
-			GCFogBugzExamples default case18763. 
-			GCFogBugzExamples default case18846. 
-			GCFogBugzExamples default case18868 }
+			FogBugzExamples default case18763. 
+			FogBugzExamples default case18846. 
+			FogBugzExamples default case18868 }

@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "GCFogBugzCaseTest",
+	"super" : "FogBugzAnnounceableCaseTest",
 	"category" : "GT-Collaborate-PharoSprint-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],

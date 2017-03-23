@@ -1,5 +1,7 @@
 actions
 loginToFogBugz
-	self fogbugz isLoggedIn ifFalse: [ 
-		self fogbugz askForCredentialsIfNecessary.
-		self fogbugz login; update. ]
+	self fogbugz isLoggedIn ifTrue: [ ^ self ].
+	self fogbugz 
+		askForCredentialsIfNecessary;
+		login;
+		update

@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "JurajKubelka 1/23/2017 12:05",
+	"super" : "ComposableModel",
+	"category" : "GT-Collaborate-PharoSprint",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"usernameLabel",
+		"usernameField",
+		"passwordLabel",
+		"passwordField"
+	],
+	"name" : "FogBugzLoginDialogModel",
+	"type" : "normal"
+}

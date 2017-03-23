@@ -1,0 +1,3 @@
+*GT-Collaborate-PharoSprint
+askForCredentialsIfNecessary
+	FogBugzSettings uniqueInstance askForCredentialsIfNecessary

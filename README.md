@@ -1,5 +1,7 @@
 # GT-Collaborate [![Build Status](https://travis-ci.org/JurajKubelka/GT-Collaborate.svg?branch=master)](https://travis-ci.org/JurajKubelka/GT-Collaborate)
 
+This is legacy code. You can find new project called [PharoSprint](https://github.com/JurajKubelka/PharoSprint).
+
 Set of tools that permits collaboration in Pharo. 
 
 ## Description
